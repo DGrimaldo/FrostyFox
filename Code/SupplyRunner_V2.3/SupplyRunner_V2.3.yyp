@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "b1638e48-9f5a-461d-8226-314655abf03c",
+            "Value": {
+                "id": "3adfa208-082e-499f-8520-995f49c2abad",
+                "resourcePath": "objects\\o_TowerB\\o_TowerB.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b4f12399-c376-4921-8748-763a3c1cb628",
             "Value": {
                 "id": "78eac0bc-a3ac-41c9-aa71-14764ade88cd",
