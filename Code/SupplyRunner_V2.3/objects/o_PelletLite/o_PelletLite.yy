@@ -1,28 +1,18 @@
 {
-    "id": "3d9d9709-f2d2-4ec6-b956-130d1a94144c",
+    "id": "2b500e74-2811-47ba-b979-e8a42a5eb9d9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Bomb",
+    "name": "o_PelletLite",
     "eventList": [
         {
-            "id": "8c975e03-ace2-4f70-8f80-089300bf98d4",
+            "id": "1bbe9a17-16e9-43a8-a203-93c4f52f6e5b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3d9d9709-f2d2-4ec6-b956-130d1a94144c"
-        },
-        {
-            "id": "661972df-909a-4e15-8bcc-9e544a52caef",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "3d9d9709-f2d2-4ec6-b956-130d1a94144c"
+            "m_owner": "2b500e74-2811-47ba-b979-e8a42a5eb9d9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

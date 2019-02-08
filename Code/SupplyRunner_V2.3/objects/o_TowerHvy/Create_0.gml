@@ -3,8 +3,8 @@
 
 // Tower Stats
 
-range = 250;
-firerate = room_speed / 3;
+range = 275;
+firerate = room_speed / 2;
 shooting = false;
 objectTarget = noone;
 

@@ -3,7 +3,7 @@
 
 if(col == c_white){
 	instance_destroy();
-	instance_create_depth(mouse_x, mouse_y, -1, o_TowerA);
+	instance_create_depth(mouse_x, mouse_y, -1, o_TowerLite);
 	global.coins1 -= cost1;
 	global.coins2 -= cost2;
 }

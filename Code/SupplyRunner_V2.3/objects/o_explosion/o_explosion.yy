@@ -1,18 +1,18 @@
 {
-    "id": "2b500e74-2811-47ba-b979-e8a42a5eb9d9",
+    "id": "76d7155e-3897-4591-a8fc-3bad9100f8be",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_PelletTA",
+    "name": "o_explosion",
     "eventList": [
         {
-            "id": "1bbe9a17-16e9-43a8-a203-93c4f52f6e5b",
+            "id": "84ccf57e-bfec-4119-b48d-9af56033f356",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "2b500e74-2811-47ba-b979-e8a42a5eb9d9"
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "76d7155e-3897-4591-a8fc-3bad9100f8be"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6f4f963a-c08c-4704-bbb8-efadda012969",
+    "spriteId": "437224c9-5442-4ad6-adde-8f4ea6e6d508",
     "visible": true
 }

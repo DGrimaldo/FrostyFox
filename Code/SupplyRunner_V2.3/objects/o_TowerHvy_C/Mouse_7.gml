@@ -3,7 +3,7 @@
 
 if (global.coins1 >= cost1) and (global.coins2 >= cost2)
 {
-	instance_create_depth(mouse_x,mouse_y,-9,o_TowerA_D)
+	instance_create_depth(mouse_x,mouse_y,-9,o_TowerHvy_D);
 	//global.coins1 -= cost1;
 	//global.coins2 -= cost2;
 }

@@ -146,7 +146,7 @@
             "Key": "2aa04e8b-5787-42e4-83cb-25b8bf9c3204",
             "Value": {
                 "id": "335c4142-9c84-4e27-a38d-a86d1c58d0ca",
-                "resourcePath": "objects\\o_TowerA_D\\o_TowerA_D.yy",
+                "resourcePath": "objects\\o_TowerLite_D\\o_TowerLite_D.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -154,7 +154,15 @@
             "Key": "2b500e74-2811-47ba-b979-e8a42a5eb9d9",
             "Value": {
                 "id": "e7efe610-a597-40cb-b6b0-5a7fba6642d1",
-                "resourcePath": "objects\\o_PelletTA\\o_PelletTA.yy",
+                "resourcePath": "objects\\o_PelletLite\\o_PelletLite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2b536a23-7149-4556-b7d7-d98ed93e2c49",
+            "Value": {
+                "id": "6094bb0f-9019-4b45-91e8-39db94106051",
+                "resourcePath": "objects\\o_TowerHvy_D\\o_TowerHvy_D.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -170,7 +178,7 @@
             "Key": "2f69c1d8-29ae-4826-ac1c-bce1295b40ac",
             "Value": {
                 "id": "e6949d70-bec7-404f-ac38-d61dcd64cef9",
-                "resourcePath": "objects\\o_TowerA\\o_TowerA.yy",
+                "resourcePath": "objects\\o_TowerLite\\o_TowerLite.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "437224c9-5442-4ad6-adde-8f4ea6e6d508",
+            "Value": {
+                "id": "2a044ffb-9547-484f-867f-dcd604f6a88c",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "459bffa4-bddb-49b4-bdd7-feb9f705305b",
             "Value": {
                 "id": "05759eeb-c4bf-4ed5-b054-276bf27f5527",
@@ -235,6 +251,14 @@
             "Value": {
                 "id": "acfbba4f-9140-4945-8178-c5ee2fd2db98",
                 "resourcePath": "views\\48faed54-c5a9-407b-b11d-7be25bc9262a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c645fb7-e8f1-4809-bf20-156177feab31",
+            "Value": {
+                "id": "c73b0007-3ef9-4a69-b6cd-5354f1cccadd",
+                "resourcePath": "views\\4c645fb7-e8f1-4809-bf20-156177feab31.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -322,7 +346,15 @@
             "Key": "72f715a3-abac-4371-a758-04bd5c3e8eb6",
             "Value": {
                 "id": "f180fb9e-7fa2-434e-898b-738f82a6fce0",
-                "resourcePath": "objects\\o_TowerA_C\\o_TowerA_C.yy",
+                "resourcePath": "objects\\o_TowerLite_C\\o_TowerLite_C.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "76d7155e-3897-4591-a8fc-3bad9100f8be",
+            "Value": {
+                "id": "69885b93-8b86-4ef7-8479-e0df50bdee2f",
+                "resourcePath": "objects\\o_explosion\\o_explosion.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -394,7 +426,7 @@
             "Key": "b1638e48-9f5a-461d-8226-314655abf03c",
             "Value": {
                 "id": "3adfa208-082e-499f-8520-995f49c2abad",
-                "resourcePath": "objects\\o_TowerB\\o_TowerB.yy",
+                "resourcePath": "objects\\o_TowerHvy\\o_TowerHvy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -412,6 +444,14 @@
                 "id": "39790f38-b5d8-4c89-8bf9-e8f5131f0db0",
                 "resourcePath": "objects\\o_GrntCntrl\\o_GrntCntrl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb57cabb-dbf2-42b7-a86e-03ff0519b5e1",
+            "Value": {
+                "id": "35ee0ece-695b-4c20-8137-b2ca50af73fb",
+                "resourcePath": "sprites\\s_Bomb\\s_Bomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -467,6 +507,14 @@
             "Value": {
                 "id": "acedd897-a820-4632-82c7-ba574fcb67b8",
                 "resourcePath": "objects\\o_TowerParent\\o_TowerParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de084919-139b-491f-b398-a31f8f76d165",
+            "Value": {
+                "id": "86f7d6f6-7e39-4d34-b0c2-ac75478640c2",
+                "resourcePath": "objects\\o_TowerHvy_C\\o_TowerHvy_C.yy",
                 "resourceType": "GMObject"
             }
         },
