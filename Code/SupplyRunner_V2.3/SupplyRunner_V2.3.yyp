@@ -418,7 +418,7 @@
             "Key": "ad764146-a0c4-4e2d-b3a2-787a720f462a",
             "Value": {
                 "id": "90c0cc0d-d4f6-4d86-a28c-8c88b8a25ad3",
-                "resourcePath": "objects\\obj_Home\\obj_Home.yy",
+                "resourcePath": "objects\\o_Home\\o_Home.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -540,6 +540,14 @@
                 "id": "34c08642-32c7-481a-bf1a-8f2030715fe5",
                 "resourcePath": "views\\f4601295-9b86-431a-ad03-6d5cb4108b40.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7d06364-f967-4c22-9fed-35a78b64065e",
+            "Value": {
+                "id": "c7adc2ce-65c2-4064-b08b-54bb0053027b",
+                "resourcePath": "sprites\\spr_explosionKill\\spr_explosionKill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

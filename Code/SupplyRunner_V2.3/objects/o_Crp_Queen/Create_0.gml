@@ -6,6 +6,14 @@ hp = 150;
 spd = 1.5;
 isPlant = false;
 
+// Attack variables
+range = 800;
+firerate = room_speed / 3;
+shooting = false;
+objectTarget = noone;
+
+alarm_set(1,firerate);
+
 
 // Creep Movement
 path_start(pth_A, spd, 0, 1);
