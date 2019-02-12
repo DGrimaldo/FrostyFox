@@ -2,11 +2,5 @@
 // You can write your code in this editor
 
 
-
-//if enemyFound = true;
-//{
-	
-//}
-if (hp <= 0){
-	instance_destroy();
-	}
+hp -= 10;
+with(other) instance_destroy();

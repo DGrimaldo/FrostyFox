@@ -3,7 +3,7 @@
 
 // Enemy Stats
 hp = 20;
-spd = 5;
+//spd = 5;
 
 
 // Creep Movement

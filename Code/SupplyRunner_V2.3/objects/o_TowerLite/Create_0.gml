@@ -3,6 +3,7 @@
 
 // Tower Stats
 
+hp = 50;
 range = 250;
 firerate = room_speed / 3;
 shooting = false;
