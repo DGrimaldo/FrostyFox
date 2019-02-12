@@ -8,24 +8,25 @@ if(mouseOver(x,y,sprite_width,sprite_height)){
 }
 
 if (isPlant == true){
-	var en = instance_nearest(x,y,o_TowerParent);
-	
-}else{	
 	var en = instance_nearest(x,y,o_Home);
-}
+	}
+else{	
+	var en = instance_nearest(x,y,o_TowerParent);
+	}
 
 if(en != noone){
 	
 	if(point_distance(x,y,en.x,en.y) <= range){
 		
 		if(!shooting){
-			alarm_set(0,1);
+			alarm_set(1,1);
 			shooting = true;
 		}
 		
 		objectTarget = en;
 		//draw_line(x,y,en.x,en.y);
-	}else{
+	}
+	else{
 		shooting = false;
 		objectTarget = noone;
 	}

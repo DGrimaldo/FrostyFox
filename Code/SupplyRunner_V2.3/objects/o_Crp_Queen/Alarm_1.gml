@@ -7,7 +7,7 @@ if (isPlant == true){
 	var bullet = instance_create_depth(x,y,-9,o_Crp_Drone);
 	bullet.speed = 5;
 	bullet.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
-	alarm_set(0,firerate);
+	alarm_set(1,firerate);
 	}else{
 	shooting = false;
 	}
@@ -16,7 +16,7 @@ if (isPlant == true){
 	var bullet = instance_create_depth(x,y,-9,o_Crp_Drone);
 	bullet.speed = 5;
 	bullet.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
-	alarm_set(0,firerate);
+	alarm_set(1,firerate);
 	}else{
 	shooting = false;
 	}	

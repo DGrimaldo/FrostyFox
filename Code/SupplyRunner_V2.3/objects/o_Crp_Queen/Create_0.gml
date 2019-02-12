@@ -7,8 +7,8 @@ spd = 1.5;
 isPlant = false;
 
 // Attack variables
-range = 800;
-firerate = room_speed / 3;
+range = 3000;
+firerate = room_speed / 1.0;
 shooting = false;
 objectTarget = noone;
 
@@ -17,6 +17,6 @@ alarm_set(1,firerate);
 
 // Creep Movement
 path_start(pth_A, spd, 0, 1);
-alarm_set(0,random_range(240,600));
+alarm_set(0,random_range(240,1000));
 
 

@@ -3,11 +3,11 @@
 
 if (sprite_index == spr_explosion){
 	sprite_index = spr_explosionKill;
-}
+	}
 
 if (sprite_index == spr_explosionKill){
 	instance_destroy()
-}
+	}
 
 
 
