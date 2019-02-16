@@ -3,8 +3,8 @@
 
 
 global.wave = 1;
-global.coins1 = 500;
-global.coins2 = 500;
+global.coins1 = 200;
+global.coins2 = 200;
 
 global.playerHp = 100;
 

@@ -4,3 +4,4 @@
 
 o_Healthbar.hp -= 5
 instance_destroy()
+
