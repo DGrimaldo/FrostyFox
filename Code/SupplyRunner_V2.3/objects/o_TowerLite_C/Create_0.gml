@@ -4,4 +4,4 @@
 image_alpha = .7
 
 cost1 = 50;
-cost2 = 50;
+cost2 = 0;
