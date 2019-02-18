@@ -1,14 +1,14 @@
 {
-    "id": "0d7f9ef0-87a3-4de6-a974-332a987e0d79",
+    "id": "8f24d8f5-0076-4acc-a713-d2697bd52b61",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_lane1Tile",
+    "name": "o_Falconer1",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c520d813-03f8-4771-b320-756fdbe08e82",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "040e4783-029d-45b3-aa12-1934475b34f2",
+    "spriteId": "deaa006b-b453-4f77-a078-32e52b178733",
     "visible": true
 }

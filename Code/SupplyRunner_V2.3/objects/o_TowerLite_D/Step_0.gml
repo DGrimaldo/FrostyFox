@@ -4,7 +4,7 @@
 x = mouse_x;
 y = mouse_y;
 
-if(place_meeting(x,y,o_lane1Tile) or place_meeting(x,y,o_TowerParent)){
+if(place_meeting(x,y,o_GUIParent) or place_meeting(x,y,o_TowerParent) or place_meeting(x,y,o_RoadParent)){
 	col = c_red
 }else{ col = c_white;
 }

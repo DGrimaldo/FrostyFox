@@ -13,6 +13,10 @@ if (isPlant == true){
 else{	
 	var en = instance_nearest(x,y,o_TowerParent);
 	}
+	
+if (en != o_Home) and (en != o_TowerParent) and (en != noone){
+	en = o_Home;
+}
 
 if(en != noone){
 	

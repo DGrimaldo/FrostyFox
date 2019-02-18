@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp -= 5;
+hp -= 4;
 //with(other) instance_destroy();

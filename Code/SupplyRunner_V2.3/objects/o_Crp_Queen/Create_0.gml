@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 // Enemy Stats
-hp = 150;
+hp = 200;
 spd = 1.5;
 isPlant = false;
 
 // Attack variables
-range = 3000;
+range = 10000;
 firerate = room_speed / 1.0;
 shooting = false;
 objectTarget = noone;
