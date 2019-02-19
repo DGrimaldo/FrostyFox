@@ -2,7 +2,7 @@
     "id": "60bde956-7010-4251-8d9d-13eb38e0d3a4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Enemy_Cntrl",
+    "name": "Ally_Cntrl",
     "eventList": [
         {
             "id": "be65822e-886a-4ce9-8145-51370e95c065",

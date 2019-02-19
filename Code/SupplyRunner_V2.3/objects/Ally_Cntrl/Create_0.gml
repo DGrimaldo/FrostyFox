@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 enum states {
-	traveling,
-	attack
+	idle,
+	selecting,
+	attacking,
+	damaged
 }
 
