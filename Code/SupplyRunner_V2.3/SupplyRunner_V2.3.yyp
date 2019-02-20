@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d4b7609-cc32-466a-a3de-dfdc7cf7728c",
+            "Value": {
+                "id": "57743c8d-0fbe-4e4d-b68e-314001616f55",
+                "resourcePath": "objects\\o_Falconer_D\\o_Falconer_D.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d7f9ef0-87a3-4de6-a974-332a987e0d79",
             "Value": {
                 "id": "08dd85bb-6063-4c7e-9a6f-596c442131d8",
@@ -554,7 +562,7 @@
             "Key": "60bde956-7010-4251-8d9d-13eb38e0d3a4",
             "Value": {
                 "id": "99003335-d9e8-4f62-b804-1f3556c5ed6d",
-                "resourcePath": "objects\\Enemy_Cntrl\\Enemy_Cntrl.yy",
+                "resourcePath": "objects\\Ally_Cntrl\\Ally_Cntrl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -570,7 +578,7 @@
             "Key": "62aa65ae-5ef1-49cf-b4f0-dff7f89297d1",
             "Value": {
                 "id": "d06a8a63-6631-493c-9e2c-2b7fa8996bdb",
-                "resourcePath": "sprites\\spr_Rat\\spr_Rat.yy",
+                "resourcePath": "sprites\\spr_RatOld\\spr_RatOld.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -818,7 +826,7 @@
             "Key": "8f24d8f5-0076-4acc-a713-d2697bd52b61",
             "Value": {
                 "id": "8d854d3a-15af-4319-a96f-71583aaa24ce",
-                "resourcePath": "objects\\o_Falconer1\\o_Falconer1.yy",
+                "resourcePath": "objects\\o_Falconer_C\\o_Falconer_C.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -903,19 +911,19 @@
             }
         },
         {
+            "Key": "9ae3e622-30fc-4b4f-83f2-39160f54b6c2",
+            "Value": {
+                "id": "28caec40-407c-4ba7-bab5-8b9458249a35",
+                "resourcePath": "sprites\\spr_Rat\\spr_Rat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e00abdd-4672-43c5-be36-3b6c08769e18",
             "Value": {
                 "id": "60ff82bd-4301-4a6c-b2e9-3a7d9a4ff953",
                 "resourcePath": "views\\9e00abdd-4672-43c5-be36-3b6c08769e18.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a0499283-40cc-4504-9fec-7ad2f0b5efbf",
-            "Value": {
-                "id": "98f66565-9b71-49bb-941a-04a6d8faf427",
-                "resourcePath": "objects\\o_Falconer11\\o_Falconer11.yy",
-                "resourceType": "GMObject"
             }
         },
         {

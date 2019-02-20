@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-enum states {
-	traveling,
-	attack
-}
+cost1 = 150;
+cost2 = 10;
 
+col = c_white;

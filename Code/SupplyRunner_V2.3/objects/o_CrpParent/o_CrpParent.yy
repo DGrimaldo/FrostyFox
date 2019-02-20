@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_CrpParent",
     "eventList": [
-        
+        {
+            "id": "f0b4b215-56b9-4541-9cc5-98f72bebc909",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "014e1735-b257-4255-971d-35397dc865d5",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "12f7bc63-2fda-4328-9a1e-173e94cabef0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

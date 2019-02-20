@@ -1,14 +1,23 @@
 {
-    "id": "8f24d8f5-0076-4acc-a713-d2697bd52b61",
+    "id": "60bde956-7010-4251-8d9d-13eb38e0d3a4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Falconer1",
+    "name": "Ally_Cntrl",
     "eventList": [
-        
+        {
+            "id": "be65822e-886a-4ce9-8145-51370e95c065",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "60bde956-7010-4251-8d9d-13eb38e0d3a4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c520d813-03f8-4771-b320-756fdbe08e82",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "deaa006b-b453-4f77-a078-32e52b178733",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
