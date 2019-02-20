@@ -3,12 +3,7 @@
 
 if(global.level>0){
 	if(global.level=1){
-		room = room0;
-	}else if(global.level=2){
-		room = room0;
-	}else if(global.level=3){
-		room = room0;
-	}else if(global.level=4){
-		room = room0;
+		path_start(pth_T0,2,path_action_stop,1);
+		global.level=1.1;
 	}
 }
