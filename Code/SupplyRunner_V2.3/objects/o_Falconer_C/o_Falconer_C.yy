@@ -2,7 +2,7 @@
     "id": "8f24d8f5-0076-4acc-a713-d2697bd52b61",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Falconer1",
+    "name": "o_Falconer_C",
     "eventList": [
         {
             "id": "9244f85c-1932-464d-af26-e8af0f684ece",

@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_Falcon",
     "eventList": [
-        
+        {
+            "id": "f0502b00-fda4-4698-bd21-2761ceba2d9a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "014e1735-b257-4255-971d-35397dc865d5"
+        },
+        {
+            "id": "720f1b06-02c7-4ec5-a804-835fcc69def8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "014e1735-b257-4255-971d-35397dc865d5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "26d084d6-f7ca-4f25-8290-5f970b3653e4",
     "visible": true
 }

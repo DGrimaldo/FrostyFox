@@ -5,6 +5,9 @@ enum states {
 	idle,
 	selecting,
 	attacking,
-	damaged
+	damaged,
+	// Falcon
+	away,
+	return
 }
 

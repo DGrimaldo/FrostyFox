@@ -5,7 +5,7 @@
 hp = 70;
 range = 10000;
 //firerate = room_speed / 3;
-shooting = false;
+flying = false;
 objectTarget = noone;
 
 //Function
