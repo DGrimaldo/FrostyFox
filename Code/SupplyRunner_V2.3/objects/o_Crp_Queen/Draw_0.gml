@@ -8,14 +8,14 @@ if(mouseOver(x,y,sprite_width,sprite_height)){
 }
 
 if (isPlant == true){
-	var en = instance_nearest(x,y,o_Home);
+	var en = instance_nearest(x,y,o_TowerParent);
 	}
 else{	
 	var en = instance_nearest(x,y,o_TowerParent);
 	}
 	
 if (en != o_Home) and (en != o_TowerParent) and (en != noone){
-	en = o_Home;
+	en = instance_nearest(x,y,o_TowerParent);
 }
 
 if(en != noone){

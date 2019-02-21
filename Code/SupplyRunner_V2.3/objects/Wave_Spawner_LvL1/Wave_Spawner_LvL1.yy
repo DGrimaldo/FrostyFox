@@ -2,7 +2,7 @@
     "id": "dafba865-9d82-4468-8de6-6c9efdfe53a5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "LvLCntrlV2",
+    "name": "Wave_Spawner_LvL1",
     "eventList": [
         {
             "id": "a759a379-299c-43f9-b4d6-c8e9cfb024d4",
@@ -42,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "dafba865-9d82-4468-8de6-6c9efdfe53a5"
+        },
+        {
+            "id": "c2eb20be-2c57-4114-928d-fbe54c812b5b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "dafba865-9d82-4468-8de6-6c9efdfe53a5"
         }
     ],
