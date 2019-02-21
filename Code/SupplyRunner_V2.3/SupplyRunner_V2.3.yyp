@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "5fb3c48b-a622-4db8-aa7d-4e0f97f769f0",
+            "Value": {
+                "id": "e5341081-0b36-4a2c-856a-bf8a36264b61",
+                "resourcePath": "objects\\o_TowerLite_Barrel\\o_TowerLite_Barrel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60591c3b-e64d-4b12-ab3d-253817d2b69b",
             "Value": {
                 "id": "00c31ab4-2547-4204-abba-303dc8f65a97",
@@ -1380,6 +1388,14 @@
                 "id": "1ca999e6-71ca-4039-ae2b-b21114e9f8cd",
                 "resourcePath": "objects\\o_Dirt111\\o_Dirt111.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3c99bb2-2a08-492d-99d3-9e1026682cbb",
+            "Value": {
+                "id": "b70c9b24-b911-4d72-8c5c-847c9f2dc30c",
+                "resourcePath": "sprites\\spr_TwrLte_GunL2\\spr_TwrLte_GunL2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

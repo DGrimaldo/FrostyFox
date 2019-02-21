@@ -9,7 +9,7 @@ s = 0;
 // Wave 1
 spawnSet[6] = noone;
 
-spawnSet[0] = o_Crp_Queen;
+spawnSet[0] = o_Crp_Grunt;
 spawnSet[1] = o_Crp_Grunt;
 spawnSet[2] = o_Crp_Grunt;
 spawnSet[3] = o_Crp_Heavy;
