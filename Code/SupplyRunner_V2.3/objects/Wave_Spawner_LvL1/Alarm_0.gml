@@ -13,7 +13,7 @@ if (global.wave == 1){
 			dieCount = 0;
 			alarm_set(0,300);
 		}else{
-			alarm_set(0,120);
+			alarm_set(0,240);
 		}
 	}
 }
@@ -30,7 +30,7 @@ if (global.wave == 2){
 			dieCount = 0;
 			alarm_set(0,300);
 		}else{
-			alarm_set(0,120);
+			alarm_set(0,240);
 		}
 	}
 }
@@ -47,7 +47,7 @@ if (global.wave == 3){
 			dieCount = 0;
 			alarm_set(0,300);
 		}else{
-			alarm_set(0,120);
+			alarm_set(0,240);
 		}
 	}
 }
@@ -64,7 +64,7 @@ if (global.wave == 4){
 			dieCount = 0;
 			alarm_set(0,300);
 		}else{
-			alarm_set(0,120);
+			alarm_set(0,240);
 		}
 	}
 }

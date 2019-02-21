@@ -3,11 +3,11 @@
 
 if(global.level=1.3){
 	if(global.decision=1){
-		path_start(pth_D1,3,path_action_stop,1);
+		path_start(pth_D1,5,path_action_stop,1);
 	}else if(global.decision=2){
-		path_start(pth_D2,3,path_action_stop,1);
+		path_start(pth_D2,5,path_action_stop,1);
 	}else if(global.decision=3){
-		path_start(pth_D3,3,path_action_stop,1);
+		path_start(pth_D3,5,path_action_stop,1);
 	}
 		global.level=1.3;
 }
