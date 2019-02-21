@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-room_goto(room0);
+global.materials=150;
+global.food=20;
+global.decision=0;
+room_goto(Decision);
