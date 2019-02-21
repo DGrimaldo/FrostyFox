@@ -7,6 +7,8 @@
         "e974444c-8389-42fc-8bf6-d1df1981fd58",
         "82e5115e-8156-4c93-97e8-606e35a73a52",
         "664bbbaf-524e-48e7-b6eb-bb927238200b",
+        "bd05e370-7802-41e2-af1c-1fdcc9bb2612",
+        "c84e3b69-b66e-4dfa-ab9e-ed79af2c59c5",
         "74639616-701c-45b7-962c-46aeeb8a197b",
         "ef12ebca-9ceb-435d-afa6-12de68b9c1bd",
         "0fa61dff-0531-4535-a914-dcf97dff44fe",

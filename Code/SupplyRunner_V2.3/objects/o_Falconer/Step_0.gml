@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (hp <= 0){
+	state = states.idle;
+	o_CrpParent.image_alpha = 1.0;
+	o_CrpParent.image_blend = c_white;
+	instance_destroy();
+	}
+
 if(state == states.idle){
 	//Sprite
 	sprite_index = spr_Falconer_N
@@ -8,9 +15,12 @@ if(state == states.idle){
 	//Behavior
 	objectTarget = noone;
 	flying = false;
-	if(mouse_check_button_pressed(mb_left)) and (position_meeting(mouse_x,mouse_y,o_Falconer)){
-		state = states.selecting;
+	if (global.food >= falcoCost){
+		if(mouse_check_button_pressed(mb_left)) and (position_meeting(mouse_x,mouse_y,o_Falconer)){
+			state = states.selecting;
+		}
 	}
+	
 }
 
 if(state == states.selecting){
@@ -21,14 +31,16 @@ if(state == states.selecting){
 	if(instance_exists(o_CrpParent)){
 		o_CrpParent.image_blend = c_green;
 		o_CrpParent.image_alpha = .7;
-		if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and (position_meeting(mouse_x,mouse_y,o_CrpParent)){
-			mouseX = mouse_x;
-			mouseY = mouse_y;
-			objectTarget = instance_nearest(mouseX,mouseY,o_CrpParent);
-			o_CrpParent.image_alpha = 1.0;
-			o_CrpParent.image_blend = c_white;
-			flying = true;
-			state = states.attacking;
+		if (global.food >= falcoCost){
+			if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and ((position_meeting(mouse_x,mouse_y,o_CrpParent) or (position_meeting(mouse_x,mouse_y,o_Crp_Stealth)))){
+				mouseX = mouse_x;
+				mouseY = mouse_y;
+				objectTarget = instance_nearest(mouseX,mouseY,o_CrpParent);
+				o_CrpParent.image_alpha = 1.0;
+				o_CrpParent.image_blend = c_white;
+				flying = true;
+				state = states.attacking;
+			}
 		}
 	}
 }
@@ -45,7 +57,7 @@ if(state == states.attacking){
 			falco.speed = 8;
 			falco.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
 			flying = true;
-			global.food -= 5;
+			global.food -= falcoCost;
 		}
 	}
 	if (flying == false){

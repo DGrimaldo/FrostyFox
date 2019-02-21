@@ -7,6 +7,7 @@ range = 10000;
 //firerate = room_speed / 3;
 flying = false;
 objectTarget = noone;
+falcoCost = 5;
 
 //Function
 //clickable = false;

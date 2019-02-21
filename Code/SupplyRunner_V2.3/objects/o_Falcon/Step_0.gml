@@ -13,3 +13,7 @@ if (state == states.away){
 if (state == states.return){
 	move_towards_point(o_Falconer.x,o_Falconer.y,speed);
 }
+
+if (!instance_exists(o_Falconer)){
+	instance_destroy();
+}
