@@ -10,7 +10,9 @@
         "fc8a8e9f-1791-4693-b78c-54d9f3276ba2",
         "326ffd8d-1034-4ccb-8635-67511a0ab639",
         "18acf970-a22e-4683-ac6f-963cd639e79b",
-        "60bde956-7010-4251-8d9d-13eb38e0d3a4"
+        "60bde956-7010-4251-8d9d-13eb38e0d3a4",
+        "31b2088c-e377-41e6-96cb-9ae1282d553d",
+        "c726bc00-8217-4bf3-a8c9-44930184bcb4"
     ],
     "filterType": "GMObject",
     "folderName": "CNTRLs",

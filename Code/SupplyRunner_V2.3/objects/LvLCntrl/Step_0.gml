@@ -3,6 +3,8 @@
 
 
 if (global.wave == 5){
+	global.materials = 150;
+	global.food = 20;
 	room_goto(Overworld);
 }
 
