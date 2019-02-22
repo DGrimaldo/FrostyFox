@@ -3,6 +3,7 @@
 
 //Stats
 hp = 70;
+hpMax = hp;
 range = 10000;
 //firerate = room_speed / 3;
 flying = false;

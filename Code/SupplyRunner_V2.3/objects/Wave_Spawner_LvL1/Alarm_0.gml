@@ -53,12 +53,12 @@ if (global.wave == 3){
 }
 
 if (global.wave == 4){
-	if (s < 2){
+	if (s < 4){
 		instance_create_depth(x, y, -1, spawnSet4[s]);
 		s += 1;
 		alarm_set(0,60);
 	}else{
-		if (dieCount == 2){
+		if (dieCount == 4){
 			global.wave += 1;
 			s = 0;
 			dieCount = 0;

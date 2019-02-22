@@ -3,10 +3,8 @@
 
 
 
-//if enemyFound = true;
-//{
-	
-//}
 if (hp <= 0){
 	instance_destroy();
-	}
+}
+
+hpNum = (hp/hpMax) * 100;

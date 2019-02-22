@@ -44,10 +44,10 @@ spawnSet3[7] = o_Crp_Queen;
 spawnSet3[8] = o_Crp_Heavy;
 
 // Wave 4
-spawnSet4[1] = noone;
+spawnSet4[3] = noone;
 
 spawnSet4[0] = o_Crp_Queen;
-spawnSet4[1] = o_Crp_Queen;
-
-
+spawnSet4[1] = o_Crp_Stealth;
+spawnSet4[2] = o_Crp_Queen;
+spawnSet4[3] = o_Crp_Stealth;
 
