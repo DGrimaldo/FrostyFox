@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp -= 20;
-with(other) instance_destroy();
+
+if (o_explosion.image_index == 2){
+	hp -= 50;
+}
+
+//hp -= 5;

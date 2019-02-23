@@ -3,11 +3,18 @@
 
 if (hp <= 0){
 	state = states.idle;
-	o_CrpParent.image_alpha = 1.0;
-	o_CrpParent.image_blend = c_white;
+	o_FalconTarget.image_alpha = 1.0;
+	o_FalconTarget.image_blend = c_white;
+	//o_CrpParent.image_alpha = 1.0;
+	//o_CrpParent.image_blend = c_white;
+	//o_Crp_Stealth.image_alpha = 1.0;
+	//o_Crp_Stealth.image_blend = c_white;
 	instance_destroy();
-	}
+}
+	
+	hpNum = (hp/hpMax) * 100;
 
+// States
 if(state == states.idle){
 	//Sprite
 	sprite_index = spr_Falconer_N
@@ -28,16 +35,24 @@ if(state == states.selecting){
 	sprite_index = spr_Falconer_PreAtk1;
 	image_alpha = .5;
 	//Behavior
-	if(instance_exists(o_CrpParent)){
-		o_CrpParent.image_blend = c_green;
-		o_CrpParent.image_alpha = .7;
+	if(instance_exists(o_FalconTarget)){
+		o_FalconTarget.image_blend = c_green;
+		o_FalconTarget.image_alpha = .7;
+		//o_CrpParent.image_blend = c_green;
+		//o_CrpParent.image_alpha = .7;
+		//o_Crp_Stealth.image_blend = c_green;
+		//o_Crp_Stealth.image_alpha = .7;
 		if (global.food >= falcoCost){
-			if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and ((position_meeting(mouse_x,mouse_y,o_CrpParent) or (position_meeting(mouse_x,mouse_y,o_Crp_Stealth)))){
+			if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and (position_meeting(mouse_x,mouse_y,o_FalconTarget)){
 				mouseX = mouse_x;
 				mouseY = mouse_y;
-				objectTarget = instance_nearest(mouseX,mouseY,o_CrpParent);
-				o_CrpParent.image_alpha = 1.0;
-				o_CrpParent.image_blend = c_white;
+				objectTarget = instance_nearest(mouseX,mouseY,(o_FalconTarget));
+				o_FalconTarget.image_alpha = 1.0;
+				o_FalconTarget.image_blend = c_white;
+				//o_CrpParent.image_alpha = 1.0;
+				//o_CrpParent.image_blend = c_white;
+				//o_Crp_Stealth.image_alpha = 1.0;
+				//o_CrpParent.image_blend = c_white;
 				flying = true;
 				state = states.attacking;
 			}

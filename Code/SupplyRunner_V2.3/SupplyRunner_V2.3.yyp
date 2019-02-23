@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "65225185-84fb-4826-a525-d0a06b4815cc",
+            "Value": {
+                "id": "f3b875b9-46a1-41cf-b7a5-d2f876b85752",
+                "resourcePath": "objects\\o_FalconTarget\\o_FalconTarget.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "664bbbaf-524e-48e7-b6eb-bb927238200b",
             "Value": {
                 "id": "614d4db4-07e5-489c-80f1-1c7c3cef988e",
@@ -908,6 +916,14 @@
                 "id": "add61276-8285-4a23-a5b7-03e4a94f4a45",
                 "resourcePath": "paths\\pth_T2\\pth_T2.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "801ecc30-31b3-41c2-98a6-28b2de798321",
+            "Value": {
+                "id": "6630b859-95fa-498c-ba38-9d7e811d7f06",
+                "resourcePath": "objects\\o_TowerD_Parent\\o_TowerD_Parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

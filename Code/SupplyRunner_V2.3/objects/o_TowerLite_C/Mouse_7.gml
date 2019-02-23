@@ -3,7 +3,9 @@
 
 if (global.materials >= cost1) and (global.food >= cost2)
 {
-	instance_create_depth(mouse_x,mouse_y,-9,o_TowerLite_D)
+	if (!instance_exists(o_TowerD_Parent)){
+		instance_create_depth(mouse_x,mouse_y,-9,o_TowerLite_D);
+	}
 	//global.materials -= cost1;
 	//global.food -= cost2;
 }
