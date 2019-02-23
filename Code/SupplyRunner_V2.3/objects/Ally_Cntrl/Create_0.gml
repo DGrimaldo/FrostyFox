@@ -4,10 +4,12 @@
 enum states {
 	idle,
 	selecting,
+	traveling,
 	attacking,
 	damaged,
-	// Falcon
-	away,
-	return
+	building, // Beaver
+	built, // Beaver
+	away,// falcon
+	return // falcon
 }
 

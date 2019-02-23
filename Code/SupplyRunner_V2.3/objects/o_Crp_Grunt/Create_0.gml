@@ -5,6 +5,7 @@
 hp = 100;
 spd = 2;
 
+state = states.traveling;
 
 // Creep Movement
 

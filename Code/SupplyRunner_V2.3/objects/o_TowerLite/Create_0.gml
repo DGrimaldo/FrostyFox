@@ -11,4 +11,4 @@ shooting = false;
 objectTarget = noone;
 
 // Spawn Barrel
-//instance_create_depth(x,y-50,-9,o_TowerLite_Barrel);
+instance_create_depth(x,y-50,-9,o_TowerLite_Barrel);
