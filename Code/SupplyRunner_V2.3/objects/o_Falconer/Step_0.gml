@@ -5,10 +5,6 @@ if (hp <= 0){
 	state = states.idle;
 	o_FalconTarget.image_alpha = 1.0;
 	o_FalconTarget.image_blend = c_white;
-	//o_CrpParent.image_alpha = 1.0;
-	//o_CrpParent.image_blend = c_white;
-	//o_Crp_Stealth.image_alpha = 1.0;
-	//o_Crp_Stealth.image_blend = c_white;
 	instance_destroy();
 }
 	
@@ -35,13 +31,24 @@ if(state == states.selecting){
 	sprite_index = spr_Falconer_PreAtk1;
 	image_alpha = .5;
 	//Behavior
+	
 	if(instance_exists(o_FalconTarget)){
-		o_FalconTarget.image_blend = c_green;
-		o_FalconTarget.image_alpha = .7;
-		//o_CrpParent.image_blend = c_green;
-		//o_CrpParent.image_alpha = .7;
-		//o_Crp_Stealth.image_blend = c_green;
-		//o_Crp_Stealth.image_alpha = .7;
+		preTarget = instance_nearest(mouse_x,mouse_y,o_FalconTarget);
+		if(mouseOver(preTarget.x,preTarget.y,preTarget.sprite_width,preTarget.sprite_height)){
+			o_FalconTarget.image_blend = c_green;
+			o_FalconTarget.image_alpha = .9;
+			preTarget.image_blend = c_lime;
+		}else{
+			o_FalconTarget.image_blend = c_green;
+			o_FalconTarget.image_alpha = .9;
+		}
+		//cancel selecting
+		if (objectTarget == noone) and (mouse_check_button_pressed(mb_right)){
+			state = states.idle;
+			o_FalconTarget.image_alpha = 1.0;
+			o_FalconTarget.image_blend = c_white;
+		}
+		
 		if (global.food >= falcoCost){
 			if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and (position_meeting(mouse_x,mouse_y,o_FalconTarget)){
 				mouseX = mouse_x;
@@ -49,10 +56,6 @@ if(state == states.selecting){
 				objectTarget = instance_nearest(mouseX,mouseY,(o_FalconTarget));
 				o_FalconTarget.image_alpha = 1.0;
 				o_FalconTarget.image_blend = c_white;
-				//o_CrpParent.image_alpha = 1.0;
-				//o_CrpParent.image_blend = c_white;
-				//o_Crp_Stealth.image_alpha = 1.0;
-				//o_CrpParent.image_blend = c_white;
 				flying = true;
 				state = states.attacking;
 			}
@@ -72,7 +75,7 @@ if(state == states.attacking){
 			falco.speed = 8;
 			falco.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
 			flying = true;
-			global.food -= falcoCost;
+			//global.food -= falcoCost;
 		}
 	}
 	if (flying == false){

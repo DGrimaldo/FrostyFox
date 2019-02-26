@@ -3,7 +3,7 @@
 
 
 if (o_explosion.image_index == 2){
-	hp -= 50;
+	hp -= 60;
 }
 
 //hp -= 5;

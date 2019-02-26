@@ -3,8 +3,10 @@
 
 // Enemy Stats
 hp = 200;
+hpMax = hp;
 spd = 1.5;
 isPlant = false;
+state = states.traveling;
 
 // Attack variables
 range = 10000;
@@ -20,3 +22,4 @@ path_start(pth_A, spd, 0, 1);
 alarm_set(0,random_range(240,1000));
 
 
+beaver_inst = noone;

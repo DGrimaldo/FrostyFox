@@ -3,6 +3,8 @@
 
 // Enemy Stats
 hp = 20;
+hpMax = hp;
+state = states.traveling;
 //spd = 5;
 
 
@@ -12,3 +14,4 @@ hp = 20;
 
 //path_start(pth_CrpA1, spd, path_action_stop, true)
 
+beaver_inst = noone;
