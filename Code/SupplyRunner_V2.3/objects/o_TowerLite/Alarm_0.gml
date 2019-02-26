@@ -3,7 +3,7 @@
 
 if(instance_exists(objectTarget)){
 	var bullet = instance_create_depth(x,y-50,-9,o_PelletLite);
-	bullet.speed = 13;
+	bullet.speed = 11;
 	bullet.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
 	alarm_set(0,firerate);
 }else{

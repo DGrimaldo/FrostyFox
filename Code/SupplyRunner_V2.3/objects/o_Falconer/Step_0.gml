@@ -38,6 +38,7 @@ if(state == states.selecting){
 			o_FalconTarget.image_blend = c_green;
 			o_FalconTarget.image_alpha = .9;
 			preTarget.image_blend = c_lime;
+			preTarget.image_alpha = 1.0;
 		}else{
 			o_FalconTarget.image_blend = c_green;
 			o_FalconTarget.image_alpha = .9;
