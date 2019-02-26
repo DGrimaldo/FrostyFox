@@ -9,7 +9,10 @@ enum states {
 	damaged,
 	building, // Beaver
 	built, // Beaver
-	away,// falcon
-	return // falcon
+	away,
+	preScrap,
+	Scrapping,
+	Scrapped,
+	return
 }
 
