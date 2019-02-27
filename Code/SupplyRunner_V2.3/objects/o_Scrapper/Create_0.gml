@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 state = states.preScrap;
+objectTarget = noone;

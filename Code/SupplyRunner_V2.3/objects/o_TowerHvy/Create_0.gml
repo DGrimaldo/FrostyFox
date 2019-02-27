@@ -8,3 +8,6 @@ range = 300;
 firerate = 140; //room_speed / .5;
 shooting = false;
 objectTarget = noone;
+
+cost1 = o_TowerHvy_C.cost1;
+cost2 = o_TowerHvy_C.cost2;
