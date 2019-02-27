@@ -4,4 +4,9 @@
 hp = 900;
 hpMax = hp;
 
+cost1 = o_Beaver_C.cost1;
+cost2 = o_Beaver_C.cost2;
+
 state = states.building;
+
+enemy_inst = noone;

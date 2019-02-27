@@ -7,6 +7,7 @@ if (hp <= 0){
 	instance_destroy()
 }
 
+
 if(state == states.building){
 	sprite_index = spr_Beaver_Building;
 	if (image_index == 16){

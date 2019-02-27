@@ -10,6 +10,9 @@ flying = false;
 objectTarget = noone;
 falcoCost = 5;
 
+cost1 = o_Falconer_C.cost1;
+cost2 = o_Falconer_C.cost2;
+
 //Function
 //clickable = false;
 
