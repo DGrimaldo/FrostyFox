@@ -6,4 +6,3 @@ global.wave = 1;
 //global.materials = 200;
 //global.food = 20;
 global.playerHp = 100;
-

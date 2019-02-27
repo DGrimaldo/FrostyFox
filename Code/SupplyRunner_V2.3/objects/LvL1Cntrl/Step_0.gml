@@ -1,14 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 if (global.wave == 5){
-	global.materials = 150;
-	global.food = 20;
+	global.level1pass=true;
 	room_goto(Overworld);
 }
 
 if (o_Healthbar.hp <= 0){
+	global.level1pass=false;
 	room_goto(Overworld);
 }
 

@@ -2,7 +2,7 @@
     "id": "0c9348f5-3e34-405b-bc1f-3bc674e4e79a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "LvLCntrl",
+    "name": "LvL1Cntrl",
     "eventList": [
         {
             "id": "ca2b1dd4-bd8f-4d2d-8e3c-48c65c9d6d84",

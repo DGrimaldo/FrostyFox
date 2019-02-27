@@ -4,5 +4,7 @@
 global.decision=0;
 
 if(x=576)and(y=704){
-	global.level=1;
+	if(!global.level1pass){
+		global.level=1;
+	}
 }
