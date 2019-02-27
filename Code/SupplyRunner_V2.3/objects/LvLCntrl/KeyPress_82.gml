@@ -3,5 +3,5 @@
 global.materials=150;
 global.food=20;
 global.decision=0;
-global.level=1.2;
+global.level=1.1;
 room_goto(Decision);

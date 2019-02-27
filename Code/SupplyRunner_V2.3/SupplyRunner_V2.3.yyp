@@ -450,7 +450,7 @@
             "Key": "31b2088c-e377-41e6-96cb-9ae1282d553d",
             "Value": {
                 "id": "ba6a13e7-46b4-4c0c-af83-1caaca4eae86",
-                "resourcePath": "objects\\OvrWrld_Cntrl\\OvrWrld_Cntrl.yy",
+                "resourcePath": "objects\\Splash_Cntrl\\Splash_Cntrl.yy",
                 "resourceType": "GMObject"
             }
         },

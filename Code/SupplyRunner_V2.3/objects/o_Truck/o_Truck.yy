@@ -5,16 +5,6 @@
     "name": "o_Truck",
     "eventList": [
         {
-            "id": "3dcc77d0-4c07-4ebf-8093-47c0816d8269",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7dbce288-10fd-4fa9-90ce-cf65afb1f3a5"
-        },
-        {
             "id": "f6284864-75da-41d0-9de1-99f999e95acb",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 10,
+            "m_owner": "7dbce288-10fd-4fa9-90ce-cf65afb1f3a5"
+        },
+        {
+            "id": "358bbe79-29a3-4db9-8bc7-c3fb4e3d2fcb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 5,
             "m_owner": "7dbce288-10fd-4fa9-90ce-cf65afb1f3a5"
         }
     ],

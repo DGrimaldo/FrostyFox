@@ -2,7 +2,7 @@
     "id": "31b2088c-e377-41e6-96cb-9ae1282d553d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OvrWrld_Cntrl",
+    "name": "Splash_Cntrl",
     "eventList": [
         {
             "id": "f4468709-1687-4e90-93f2-8d42c410871c",
