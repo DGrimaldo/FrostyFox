@@ -13,3 +13,4 @@ path_start(pth_A, spd, 0, 1);
 
 // Beaver Wall
 beaver_inst = noone;
+
