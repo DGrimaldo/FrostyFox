@@ -7,3 +7,8 @@ if (other_inst.state == states.attacking){
 	beaver_inst = other_inst.beaver_inst;
 	state = states.attacking;
 }
+
+if(hp <= 0 ){
+	beaver_inst = noone;
+	other_inst.beaver_inst = noone;
+}
