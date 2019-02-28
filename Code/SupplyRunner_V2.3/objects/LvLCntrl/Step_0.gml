@@ -5,11 +5,11 @@
 if (global.wave == 5){
 	global.materials = 150;
 	global.food = 20;
-	room_goto(Overworld);
+	room_goto(Level2);
 }
 
 if (o_Healthbar.hp <= 0){
-	room_goto(Overworld);
+	room_goto(SplashScreen);
 }
 
 if (global.food < 0){

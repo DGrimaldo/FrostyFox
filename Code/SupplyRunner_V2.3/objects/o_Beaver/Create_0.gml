@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp = 600;
+hp = 300;
 hpMax = hp;
 
 cost1 = o_Beaver_C.cost1;

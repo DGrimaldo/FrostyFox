@@ -3,5 +3,5 @@
 
 //image_alpha = .7;
 
-cost1 = 100;
+cost1 = 80;
 cost2 = 0;

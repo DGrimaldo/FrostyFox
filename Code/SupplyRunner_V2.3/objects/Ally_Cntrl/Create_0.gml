@@ -13,6 +13,6 @@ enum states {
 	preScrap,
 	Scrapping,
 	Scrapped,
-	return
+	returning
 }
 
