@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (!instance_exists(originTwr)){
+	instance_destroy();
+}
+
 
 if (state == states.away){
 	if (instance_exists(o_Falconer.objectTarget)){
@@ -14,6 +18,3 @@ if (state == states.return){
 	move_towards_point(o_Falconer.x,o_Falconer.y,speed);
 }
 
-if (!instance_exists(o_Falconer)){
-	instance_destroy();
-}

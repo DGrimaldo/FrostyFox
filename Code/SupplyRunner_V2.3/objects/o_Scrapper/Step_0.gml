@@ -22,18 +22,39 @@ if (state == states.Scrapping){
 			o_TowerParent.image_alpha = .9;
 			preTarget.image_blend = c_lime;
 			preTarget.image_alpha = 1.0;
+			if (instance_exists(o_Falconer)){ 
+				if(o_Falconer.state == states.selecting or o_Falconer.state == states.attacking){
+					o_Falconer.image_blend = c_red;
+				}
+			}
 		}else{
 			o_TowerParent.image_blend = c_green;
 			o_TowerParent.image_alpha = .9;
+<<<<<<< HEAD
 		}
 		//cancel selecting
 		if (objectTarget == noone) and (mouse_check_button_pressed(mb_right)){
 			state = states.idle;
+=======
+			if (instance_exists(o_Falconer)){ 
+				if(o_Falconer.state == states.selecting or o_Falconer.state == states.attacking){
+					o_Falconer.image_blend = c_red;
+				}
+			}
+		}
+		//cancel selecting
+		if (objectTarget == noone) and (mouse_check_button_pressed(mb_right)){
+			state = states.preScrap;
+>>>>>>> 0d59006f9d3bc2e2cbd9924eedbd4a53968d125a
 			o_TowerParent.image_alpha = 1.0;
 			o_TowerParent.image_blend = c_white;
 		}
 		
+<<<<<<< HEAD
 		if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and (position_meeting(mouse_x,mouse_y,o_TowerParent)){
+=======
+		if(mouse_check_button_pressed(mb_left)) and (objectTarget == noone) and (position_meeting(mouse_x,mouse_y,o_TowerParent) and (preTarget.image_blend == c_lime)){
+>>>>>>> 0d59006f9d3bc2e2cbd9924eedbd4a53968d125a
 			mouseX = mouse_x;
 			mouseY = mouse_y;
 			objectTarget = instance_nearest(mouseX,mouseY,(o_TowerParent));

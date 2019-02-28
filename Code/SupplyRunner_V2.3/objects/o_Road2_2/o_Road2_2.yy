@@ -1,23 +1,14 @@
 {
-    "id": "af3adaba-1340-4cbb-9573-3e907a29e830",
+    "id": "9992fea9-f4e8-48c2-b0f0-888bd644896b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Enemy_Cntrl",
+    "name": "o_Road2_2",
     "eventList": [
-        {
-            "id": "1a79382c-c54a-4290-a68d-0d058faab646",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "af3adaba-1340-4cbb-9573-3e907a29e830"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "109591e1-fd39-4cfe-93d3-17d7b1bdd54c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "91289902-c27a-41ee-aed7-d235a2e00a11",
     "visible": true
 }
