@@ -5,3 +5,5 @@
 
 startX = x;
 startY = y;
+
+originTwr = instance_place(x,y,o_TowerLite);

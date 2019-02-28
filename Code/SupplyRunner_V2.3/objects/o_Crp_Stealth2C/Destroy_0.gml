@@ -8,4 +8,4 @@ if dropRoll <= 6{
 	global.food += 2;
 }
 
-Wave_Spawner_LvL1.dieCount += 1;
+Wave_Spawner_LvL2.dieCount += 1;

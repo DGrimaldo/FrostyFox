@@ -11,7 +11,8 @@
         "4b4b7905-e821-4952-9a81-fb70a54d0d63",
         "b8c5eed2-141d-4be7-b438-44197d3b567b",
         "148c0d6c-4eff-4de4-9b9c-5ce18ecf8966",
-        "dac2da6a-9aba-4258-8686-629680ee0f18"
+        "dac2da6a-9aba-4258-8686-629680ee0f18",
+        "7b9d16c1-30ea-487d-9d32-2deae802c97e"
     ],
     "filterType": "GMSprite",
     "folderName": "Enviro\/BG",

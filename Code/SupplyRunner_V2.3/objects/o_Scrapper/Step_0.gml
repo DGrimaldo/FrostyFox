@@ -38,7 +38,7 @@ if (state == states.Scrapping){
 		}
 		//cancel selecting
 		if (objectTarget == noone) and (mouse_check_button_pressed(mb_right)){
-			state = states.idle;
+			state = states.preScrap;
 			o_TowerParent.image_alpha = 1.0;
 			o_TowerParent.image_blend = c_white;
 		}
