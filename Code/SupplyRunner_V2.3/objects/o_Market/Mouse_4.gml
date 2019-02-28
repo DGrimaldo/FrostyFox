@@ -3,6 +3,18 @@
 
 global.decision=0;
 
-if(x=576)and(y=704){
-	global.level=1;
+
+if(!global.level1pass){
+	if(x=576)and(y=704){
+		global.level=1;
+	}
+}else{
+	if(!global.level2pass){
+	if(x=1344)and(y=192){
+		global.level=2;
+	}
+	}else{
+	}
 }
+
+

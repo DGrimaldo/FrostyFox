@@ -3,13 +3,13 @@
 
 
 if (global.wave == 5){
-	global.materials = 150;
-	global.food = 20;
-	room_goto(Level2);
+	global.level1pass = true;
+	room_goto(Overworld);
 }
 
 if (o_Healthbar.hp <= 0){
-	room_goto(SplashScreen);
+	global.level1pass = false;
+	room_goto(Overworld);
 }
 
 if (global.food < 0){
