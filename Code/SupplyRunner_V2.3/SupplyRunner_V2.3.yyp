@@ -34,7 +34,7 @@
             "Key": "00de4221-719d-4c27-9870-017bbd49cb15",
             "Value": {
                 "id": "88b7605e-26b3-4085-bea7-387c771fbec4",
-                "resourcePath": "rooms\\Decision\\Decision.yy",
+                "resourcePath": "rooms\\Decision1\\Decision1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1420,6 +1420,14 @@
                 "id": "9237de68-673a-4623-a19a-4ebd92cc08d0",
                 "resourcePath": "objects\\o_Crp_Queen\\o_Crp_Queen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d48f8629-692d-45f3-bc82-3a8d4022e3fd",
+            "Value": {
+                "id": "63f10e0a-8f0c-49e6-b55d-9277ea8203bc",
+                "resourcePath": "rooms\\Decision2\\Decision2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
