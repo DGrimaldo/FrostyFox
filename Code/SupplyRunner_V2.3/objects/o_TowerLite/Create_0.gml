@@ -15,3 +15,5 @@ cost2 = o_TowerLite_C.cost2;
 
 // Spawn Barrel
 //instance_create_depth(x,y-50,-9,o_TowerLite_Barrel);
+
+originTwr = instance_place(x,y,o_TowerLite);

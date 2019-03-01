@@ -71,6 +71,7 @@ if(state == states.attacking){
 	if(objectTarget!=noone){
 		if (instance_number(o_Falcon) < 1){
 			var falco = instance_create_depth(x,y,-9,o_Falcon);
+			falco_inst = instance_place(x,y,o_Falcon);
 			falco.speed = 8;
 			falco.direction = point_direction(x,y,objectTarget.x,objectTarget.y);
 			flying = true;

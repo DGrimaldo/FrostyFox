@@ -4,6 +4,8 @@
 hpNum = (hp/hpMax) * 100;
 
 if(hp <= 0 ){
+	global.materials += .5;
+	global.food += 0;
 	instance_destroy();
 }
 image_angle = direction + 90;

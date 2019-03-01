@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 global.materials = 150;
-global.food = 20;
+global.food = 5;
 global.level=0;
 global.level1pass=false;
 global.level2pass=false;

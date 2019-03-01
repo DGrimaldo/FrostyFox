@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 
-cost1 = 60;
-cost2 = 5;
+cost1 = 65;
+cost2 = 10;
