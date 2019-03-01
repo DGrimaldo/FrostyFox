@@ -1,50 +1,50 @@
 {
-    "id": "0354b704-3e0b-4166-ae93-389a3bb4d413",
+    "id": "32d64d30-315a-420a-9ede-849b92058b94",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "pth_D3",
+    "name": "pth_D22",
     "closed": false,
     "hsnap": 0,
     "kind": 0,
     "points": [
         {
-            "id": "14309ff1-1962-4922-947f-24d12a208002",
+            "id": "db6d6efe-10f3-4ecc-a944-0eaed5c35a08",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 64,
-            "y": 576,
-            "speed": 100
-        },
-        {
-            "id": "03b72f78-a10e-4c4e-b296-cf616500c5ef",
-            "modelName": "GMPathPoint",
-            "mvc": "1.0",
-            "x": 832,
-            "y": 576,
-            "speed": 100
-        },
-        {
-            "id": "ad4201f9-19ea-4db1-a14c-c29e4a7f2859",
-            "modelName": "GMPathPoint",
-            "mvc": "1.0",
-            "x": 832,
             "y": 960,
             "speed": 100
         },
         {
-            "id": "3afb312b-fb15-4128-8e0f-e3bcf266b360",
+            "id": "4cc306e3-8df0-48e0-9079-3318e1ea8d49",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 1856,
+            "x": 704,
             "y": 960,
             "speed": 100
         },
         {
-            "id": "40f1ecbe-1596-4775-9e21-6f5193faec0f",
+            "id": "c0a4bceb-c6a1-46cc-86fd-b2c6450bedb0",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 1856,
-            "y": 1152,
+            "x": 704,
+            "y": 320,
+            "speed": 100
+        },
+        {
+            "id": "9b3a8c43-9266-4090-8edb-951d937a638a",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 1216,
+            "y": 320,
+            "speed": 100
+        },
+        {
+            "id": "d80cdaac-52db-4d76-9df5-77d3428acd86",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 1216,
+            "y": 0,
             "speed": 100
         }
     ],
