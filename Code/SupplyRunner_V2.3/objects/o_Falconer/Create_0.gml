@@ -8,7 +8,8 @@ range = 10000;
 //firerate = room_speed / 3;
 flying = false;
 objectTarget = noone;
-falcoCost = 5;
+falcoCost = 10;
+falco_inst = noone;
 
 cost1 = o_Falconer_C.cost1;
 cost2 = o_Falconer_C.cost2;
