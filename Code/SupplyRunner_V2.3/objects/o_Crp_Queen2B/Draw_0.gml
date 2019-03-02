@@ -3,9 +3,9 @@
 
 
 draw_self();
-if(mouseOver(x,y,sprite_width,sprite_height)){
-	draw_circle(x,y,range,true);
-}
+//if(mouseOver(x,y)){
+//	draw_circle(x,y,range,true);
+//}
 
 if (isPlant == true){
 	var en = instance_nearest(x,y,o_TowerParent);
