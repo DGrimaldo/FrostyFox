@@ -922,7 +922,7 @@
             "Key": "68c9e210-05b5-43f1-b53b-d6a0bd067294",
             "Value": {
                 "id": "4cbf724b-9664-467b-9f30-6b8f276560fd",
-                "resourcePath": "paths\\pth_T5\\pth_T5.yy",
+                "resourcePath": "paths\\pth_T6\\pth_T6.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -1594,7 +1594,7 @@
             "Key": "c9c28b36-5430-4c14-be1a-b93be58877be",
             "Value": {
                 "id": "26c5730b-8f6e-4f71-981c-e487cab21a10",
-                "resourcePath": "paths\\pth_T4\\pth_T4.yy",
+                "resourcePath": "paths\\pth_T\\pth_T.yy",
                 "resourceType": "GMPath"
             }
         },

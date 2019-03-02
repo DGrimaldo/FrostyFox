@@ -11,7 +11,10 @@ if(!global.level1pass){
 }else if(!global.level2pass){
 		if(x=1344)and(y=192){
 			global.level=2;
-		}else{
+		}
+}else if(!global.level3pass){
+		if(x=1088)and(y=960){
+			global.level=3;
 		}
 }
 
