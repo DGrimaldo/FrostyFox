@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "3d405d92-82ee-4e99-914d-a47a0f437905",
+            "Value": {
+                "id": "81a60124-cef9-49b1-9dcc-f8bbfa4d0e64",
+                "resourcePath": "objects\\o_BigRations\\o_BigRations.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d550332-4181-4d92-a10b-7c29802f7817",
             "Value": {
                 "id": "dcfa8492-d259-4dd1-9f83-61e577b15e91",
@@ -564,6 +572,14 @@
                 "id": "3de37943-0323-4387-a018-2a894b3329ea",
                 "resourcePath": "objects\\o_Bomb\\o_Bomb.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3dde0b6c-a73f-4f59-a1df-099626d35dde",
+            "Value": {
+                "id": "42a809d3-010b-4960-8035-f0ca5c297679",
+                "resourcePath": "fonts\\fontWave\\fontWave.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -732,6 +748,14 @@
                 "id": "85aa4057-40b9-4376-8bac-fd3c029c7132",
                 "resourcePath": "views\\5046375a-1d17-469b-9404-3810fcf298be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "533ea6f5-14d9-4ced-b4c2-db8cd96cc5c9",
+            "Value": {
+                "id": "25e5629c-b38d-46c8-8f2b-77c6767bd668",
+                "resourcePath": "sprites\\spr_SmallTools\\spr_SmallTools.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1351,6 +1375,22 @@
             }
         },
         {
+            "Key": "a531cf9e-e1a5-4f1d-a476-fe41e3af4525",
+            "Value": {
+                "id": "7fb4f8e0-a655-4dc9-a557-819b7ab25db5",
+                "resourcePath": "objects\\o_BigTools\\o_BigTools.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a65ee15a-2373-41c4-9931-c32a34252467",
+            "Value": {
+                "id": "ef1a635c-5a9c-4619-bae3-45fe5d5ef2ed",
+                "resourcePath": "sprites\\spr_SmallRations\\spr_SmallRations.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8cf0886-6793-475d-adb4-074d32b270dc",
             "Value": {
                 "id": "657b1eff-f656-4c85-8441-342cfc530496",
@@ -1527,6 +1567,22 @@
             }
         },
         {
+            "Key": "bd4d3a60-7237-4fdd-9b44-e4bcd44186e5",
+            "Value": {
+                "id": "5ade8192-2b07-401c-8248-40f243503f70",
+                "resourcePath": "sprites\\spr_BigTools\\spr_BigTools.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf94f4e5-34ca-4dc9-86a2-f34284dfb4fc",
+            "Value": {
+                "id": "63a877f1-25eb-4cb9-b8bd-d17ffbd2e262",
+                "resourcePath": "sprites\\spr_BigRations\\spr_BigRations.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0fc94f2-2531-45fe-9110-111fee1a4df4",
             "Value": {
                 "id": "403c298c-ca83-4389-bf53-aad8391357ef",
@@ -1612,6 +1668,14 @@
                 "id": "6439b128-3bbb-4987-af1a-64e1ac58a4dc",
                 "resourcePath": "sprites\\spr_Home\\spr_Home.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbbd1f4e-3bc5-4fb4-a37e-f18125476218",
+            "Value": {
+                "id": "d346714d-f351-4843-beeb-1d556f8f20e1",
+                "resourcePath": "objects\\o_SmallRations\\o_SmallRations.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1971,6 +2035,14 @@
             "Value": {
                 "id": "4148a976-0c6b-4b1e-ba2b-a17c6c25cc6e",
                 "resourcePath": "objects\\o_AllyBG\\o_AllyBG.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fc5669c8-34f2-49c8-bed0-9e0bd00eaef6",
+            "Value": {
+                "id": "c7dd6326-0ee0-4f86-978e-b85158579921",
+                "resourcePath": "objects\\o_SmallTools\\o_SmallTools.yy",
                 "resourceType": "GMObject"
             }
         },
