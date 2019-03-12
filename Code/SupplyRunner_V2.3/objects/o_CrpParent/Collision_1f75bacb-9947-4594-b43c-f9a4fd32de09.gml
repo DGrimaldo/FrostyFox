@@ -3,10 +3,13 @@
 
 other_inst = instance_place(x,y,o_CrpParent);
 
-if (other_inst.state == states.attacking){
-	beaver_inst = other_inst.beaver_inst;
-	state = states.attacking;
+if (state == states.traveling){
+	if (other_inst.state == states.attacking){
+		state = states.attacking;
+		beaver_inst = other_inst.beaver_inst;
+	}
 }
+
 
 if(hp <= 0 ){
 	beaver_inst = noone;

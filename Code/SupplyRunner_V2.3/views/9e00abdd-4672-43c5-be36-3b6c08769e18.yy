@@ -33,7 +33,8 @@
         "dc49cc56-1e87-40f4-b9af-eaa32e7823bc",
         "8f476412-cd98-441a-ab75-587cf9e5fef8",
         "b4f12399-c376-4921-8748-763a3c1cb628",
-        "62aa65ae-5ef1-49cf-b4f0-dff7f89297d1"
+        "62aa65ae-5ef1-49cf-b4f0-dff7f89297d1",
+        "852afbb8-6538-4157-a5e3-275ef7c42fa6"
     ],
     "filterType": "GMSprite",
     "folderName": "PlaceHolder\/Old",

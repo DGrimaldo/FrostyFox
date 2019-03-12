@@ -4,6 +4,7 @@
 enum states {
 	idle,
 	selecting,
+	startup,
 	traveling,
 	attacking,
 	damaged,

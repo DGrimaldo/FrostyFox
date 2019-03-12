@@ -9,6 +9,11 @@ if(hp <= 0 ){
 	instance_destroy();
 }
 
+if(state == states.startup){
+	path_start(pthPickr, spd, 0, 1);
+	state = states.traveling;
+}
+
 if(state == states.traveling){
 	path_speed = spd;
 }

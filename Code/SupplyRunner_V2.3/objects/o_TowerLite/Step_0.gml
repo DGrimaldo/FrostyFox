@@ -8,3 +8,7 @@ if (hp <= 0){
 }
 
 hpNum = (hp/hpMax) * 100;
+
+if (instance_exists(barrel_inst)){
+	barrel_inst.localTarget = objectTarget;
+}
