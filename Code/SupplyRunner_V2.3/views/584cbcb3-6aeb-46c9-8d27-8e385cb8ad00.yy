@@ -10,8 +10,7 @@
         "d47a5c1b-2da7-4e2e-b9ae-f9c9fd74e281",
         "64568898-cbe6-4dc5-aa77-1b8c7973ae89",
         "241bc1ec-4e77-4258-83a1-43b43b6ecba0",
-        "65225185-84fb-4826-a525-d0a06b4815cc",
-        "7bccf136-69a3-4ea0-8686-ed79ca902757"
+        "65225185-84fb-4826-a525-d0a06b4815cc"
     ],
     "filterType": "GMObject",
     "folderName": "Creeps",

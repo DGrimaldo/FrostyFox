@@ -5,7 +5,7 @@
 hp = 70;
 hpMax = hp;
 range = 300;
-firerate = 140; //room_speed / .5;
+firerate = 120; //room_speed / .5;
 shooting = false;
 objectTarget = noone;
 

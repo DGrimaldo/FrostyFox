@@ -10,7 +10,7 @@ if (hp <= 0){
 
 if(state == states.building){
 	sprite_index = spr_Beaver_Building;
-	if (image_index == 16){
+	if (image_index == 6){
 		image_speed = 0;
 		state = states.built;
 	}

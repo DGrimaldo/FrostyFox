@@ -4,11 +4,12 @@
 
 
 if (localTarget != noone){
-	localTarget = o_TowerLite.objectTarget;
-	direction = point_direction(x,y,localTarget.x,localTarget.y);
-	image_angle = 180 + point_direction(x,y,localTarget.x,localTarget.y);
+	if (instance_exists(localTarget)){
+		direction = point_direction(x,y,localTarget.x,localTarget.y);
+		image_angle = 180 + point_direction(x,y,localTarget.x,localTarget.y);
+	}
 }else{
-	localTarget = o_HoleLrg;
+	//localTarget = o_HoleLrg;
 	direction = 180;
 	image_angle = 0;
 }

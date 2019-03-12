@@ -5,12 +5,10 @@
 hp = 300;
 hpMax = hp;
 spd = 1;
-state = states.traveling;
+state = states.startup;
 
 // Creep Movement
-
-path_start(pth_A, spd, 0, 1);
-
+pthPickr = noone;
 
 // Beaver Wall
 beaver_inst = noone;

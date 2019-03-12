@@ -8,4 +8,4 @@ if place_meeting(x,y,o_Beaver){
 
 state = states.attacking;
 
-o_Beaver.hp -= 1;
+//o_Beaver.hp -= 1;

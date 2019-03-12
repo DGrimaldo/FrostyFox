@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cost1 = 75;
-cost2 = 10;
+cost1 = 0;
+cost2 = 0;
