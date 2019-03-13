@@ -18,3 +18,4 @@ barrel_inst = instance_create_depth(x,y-50,-9,o_TowerLite_Barrel);
 barrel_inst.localTarget = objectTarget;
 
 //barrel_inst = instance_place(x,y,o_TowerLite_Barrel);
+bullet_inst = noone;

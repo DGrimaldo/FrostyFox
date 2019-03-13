@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "05799d45-7b93-4d3e-af3f-499ec9e71d32",
+            "Value": {
+                "id": "660343f4-5bf4-4bdf-a817-e65f4479c8d5",
+                "resourcePath": "sprites\\spr_MouseDeath\\spr_MouseDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06412a0a-a6bf-4484-a52d-ac6d4f1c9c07",
             "Value": {
                 "id": "6c29e072-0a0c-49b5-979d-57a3c5c4aaf7",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "172762cb-2898-4662-8aaf-78c118c4d047",
                 "resourcePath": "sprites\\spr_Snake\\spr_Snake.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e0bb81a-a33c-4622-9dda-902cb67d7a85",
+            "Value": {
+                "id": "67b6c5cc-b723-4166-b55e-f19a8a631066",
+                "resourcePath": "sprites\\spr_MouseDMG_Lte\\spr_MouseDMG_Lte.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "3cb430c6-3750-47e1-aca7-f06485925ae3",
+            "Value": {
+                "id": "c38dea6f-2460-4e1a-92ee-3ff5de0b1af4",
+                "resourcePath": "sprites\\spr_FlyDMG_Hvy\\spr_FlyDMG_Hvy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d550332-4181-4d92-a10b-7c29802f7817",
             "Value": {
                 "id": "dcfa8492-d259-4dd1-9f83-61e577b15e91",
@@ -595,6 +619,14 @@
             "Value": {
                 "id": "2a044ffb-9547-484f-867f-dcd604f6a88c",
                 "resourcePath": "sprites\\spr_explosionb\\spr_explosionb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44112470-8c28-4454-8b06-3b0fdaf538e1",
+            "Value": {
+                "id": "2b341323-06c3-4d0e-97d7-b05924e71270",
+                "resourcePath": "sprites\\spr_FlyDMG_Lte\\spr_FlyDMG_Lte.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -855,6 +887,14 @@
             }
         },
         {
+            "Key": "65a7b96e-c463-4ea9-8f6a-24dde3a16d5a",
+            "Value": {
+                "id": "e7d5cbe6-9de7-49ed-a814-a715a16ebf3d",
+                "resourcePath": "sprites\\spr_RatDMG_Hvy\\spr_RatDMG_Hvy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "664bbbaf-524e-48e7-b6eb-bb927238200b",
             "Value": {
                 "id": "614d4db4-07e5-489c-80f1-1c7c3cef988e",
@@ -1007,6 +1047,14 @@
             }
         },
         {
+            "Key": "79324272-0fc5-49ef-bfb5-15d47a439b11",
+            "Value": {
+                "id": "8ad557a4-33b1-4cfa-a65e-77c88ae261f8",
+                "resourcePath": "sprites\\spr_MouseDMG_Hvy\\spr_MouseDMG_Hvy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b268b04-19d2-4847-ba89-4f918d96c7ab",
             "Value": {
                 "id": "00b5f683-8d8a-432d-a994-536a0cea985d",
@@ -1043,6 +1091,14 @@
             "Value": {
                 "id": "b4ec38db-12b5-4e22-8f7b-ee4468e859e1",
                 "resourcePath": "sprites\\sprite89\\sprite89.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e9c77c3-1229-4fc1-bf9b-8156eec10c96",
+            "Value": {
+                "id": "32d0690c-db0d-473b-8644-eb433a5b14a0",
+                "resourcePath": "sprites\\spr_FrogDMG_Lte\\spr_FrogDMG_Lte.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1124,6 +1180,14 @@
                 "id": "f52f0ff2-e280-4df5-b216-e30f4b89cb02",
                 "resourcePath": "paths\\pth_D2\\pth_D2.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "8a79bebe-7d86-45e8-bb1c-f6f6172ea6c8",
+            "Value": {
+                "id": "2cbf34b2-6981-419d-aa82-f15be1087187",
+                "resourcePath": "sprites\\spr_FrogDMG_Hvy\\spr_FrogDMG_Hvy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1615,6 +1679,14 @@
             }
         },
         {
+            "Key": "d0919814-9d36-4f4c-be29-8b2b9c68169d",
+            "Value": {
+                "id": "9ea29554-cdc3-4f2c-9dbe-f6af60dce925",
+                "resourcePath": "views\\d0919814-9d36-4f4c-be29-8b2b9c68169d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d27d9072-f4cd-4b8d-8c70-74c9699dbdc5",
             "Value": {
                 "id": "b186c4a8-6afe-4e0c-9b18-83f15edf1f78",
@@ -1787,6 +1859,14 @@
             "Value": {
                 "id": "9ea22708-b6fa-4485-83df-ad608e4608e1",
                 "resourcePath": "sprites\\spr_Spwnr\\spr_Spwnr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ec7a8b69-ec43-42db-9bb3-54e17a556c1b",
+            "Value": {
+                "id": "dbc8f186-467d-4ba5-9efd-638856eb3195",
+                "resourcePath": "sprites\\spr_RatDMG_Lte\\spr_RatDMG_Lte.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -22,3 +22,9 @@ alarm_set(0,random_range(240,1000));
 
 
 beaver_inst = noone;
+
+// Damage Sprites
+hvyDmgSpr = spr_FrogDMG_Hvy;
+lteDmgSpr = spr_FrogDMG_Lte;
+oSpr = spr_Frog;
+isHit = false;

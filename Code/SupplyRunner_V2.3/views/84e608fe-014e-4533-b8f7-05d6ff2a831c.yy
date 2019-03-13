@@ -8,7 +8,8 @@
         "9ae3e622-30fc-4b4f-83f2-39160f54b6c2",
         "93e000dd-4f55-4d1c-9ce9-802bea765b9a",
         "0228e4b9-1f40-4e8e-b4ca-0abe40b0d1c0",
-        "1d048d65-4864-4873-b51b-dc7de59809c1"
+        "1d048d65-4864-4873-b51b-dc7de59809c1",
+        "d0919814-9d36-4f4c-be29-8b2b9c68169d"
     ],
     "filterType": "GMSprite",
     "folderName": "Creeps",

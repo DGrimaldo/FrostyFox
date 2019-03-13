@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if (instance_exists(bullet_inst)){
+if (bullet_inst != noone){
 	instance_destroy(bullet_inst);
 }
 
