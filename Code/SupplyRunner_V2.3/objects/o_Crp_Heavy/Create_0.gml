@@ -12,3 +12,9 @@ pthPickr = noone;
 
 // Beaver Wall
 beaver_inst = noone;
+
+// Damage Sprites
+hvyDmgSpr = spr_RatDMG_Hvy;
+lteDmgSpr = spr_RatDMG_Lte;
+oSpr = spr_Rat;
+isHit = false;

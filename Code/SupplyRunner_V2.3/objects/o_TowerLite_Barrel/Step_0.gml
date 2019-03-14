@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
+//localTarget = tower_inst.objectTarget
 
 if (localTarget != noone){
 	if (instance_exists(localTarget)){

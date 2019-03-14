@@ -9,3 +9,7 @@ state = states.startup;
 
 
 beaver_inst = noone;
+
+// Damage Sprites
+hvyDmgSpr = spr_Snake;
+isHit = false;

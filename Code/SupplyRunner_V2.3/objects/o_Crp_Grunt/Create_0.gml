@@ -7,9 +7,15 @@ hpMax = hp;
 spd = 2;
 state = states.startup;
 
+
 // Creep Movement
 pthPickr = noone;
 
 // Beaver Wall
 beaver_inst = noone;
 
+// Damage Sprites
+hvyDmgSpr = spr_MouseDMG_Hvy;
+lteDmgSpr = spr_MouseDMG_Lte;
+oSpr = spr_Mouse;
+isHit = false;
