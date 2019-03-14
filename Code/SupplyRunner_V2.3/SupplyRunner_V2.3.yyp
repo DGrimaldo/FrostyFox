@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0895b8b8-cf6e-474a-95bc-e91f8d9041cf",
+            "Value": {
+                "id": "f05beead-57c3-491f-955c-978bbf3b8b48",
+                "resourcePath": "objects\\o_waveBoxParent\\o_waveBoxParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09969e2e-7e38-4645-9c77-370c6e916bbe",
             "Value": {
                 "id": "f6d55b52-fdc0-4177-a694-e6320ab1f32d",
@@ -316,6 +324,14 @@
                 "id": "172762cb-2898-4662-8aaf-78c118c4d047",
                 "resourcePath": "sprites\\spr_Snake\\spr_Snake.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d17fad4-639a-494a-9f9d-e783cefeb613",
+            "Value": {
+                "id": "ec08c8c9-3013-458e-8ba4-b84b1d81d44e",
+                "resourcePath": "objects\\o_IconParent\\o_IconParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -19,3 +19,4 @@ hvyDmgSpr = spr_MouseDMG_Hvy;
 lteDmgSpr = spr_MouseDMG_Lte;
 oSpr = spr_Mouse;
 isHit = false;
+
