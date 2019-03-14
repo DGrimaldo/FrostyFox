@@ -225,7 +225,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": true,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -239,7 +239,7 @@
             "pathId": "df8c7381-8dc7-452f-aedb-aa68988eb700",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",

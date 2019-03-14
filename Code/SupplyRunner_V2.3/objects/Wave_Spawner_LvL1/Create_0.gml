@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-alarm_set(0,120);
+alarm_set(1, 120);
+//alarm_set(0,120);
 dieCount = 0;
 sCnt = 0;
 s = 0;
+
+boxSwitch = false;
 
 // Wave 1
 // Enemey Composition
