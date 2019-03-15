@@ -9,13 +9,17 @@ if(!global.level1pass){
 		global.level=1;
 	}
 }else if(!global.level2pass){
-		if(x=1344)and(y=192){
-			global.level=2;
-		}
+	if(x=1344)and(y=192){
+		global.level=2;
+	}
 }else if(!global.level3pass){
-		if(x=1088)and(y=960){
-			global.level=3;
-		}
+	if(x=1088)and(y=960){
+		global.level=3;
+	}
+}else if(!global.level4pass){
+	if(x=1856)and(y=576){
+		global.level=4;
+	}
 }
 
 
