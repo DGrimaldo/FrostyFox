@@ -22,6 +22,6 @@ isHit = false;
 
 
 
-dropMat = 5;
-dropFood = 0;
+//dropMat = 5;
+//dropFood = 0;
 

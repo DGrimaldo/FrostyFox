@@ -18,3 +18,7 @@ hvyDmgSpr = spr_RatDMG_Hvy;
 lteDmgSpr = spr_RatDMG_Lte;
 oSpr = spr_Rat;
 isHit = false;
+
+
+//dropMat = 10;
+//dropFood = 0;

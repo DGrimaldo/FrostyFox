@@ -60,8 +60,8 @@ if (state == states.Scrapped){
 		global.materials += (objectTarget.cost1 / 2);
 		global.food += (objectTarget.cost2 / 2);
 	}else{
-		global.materials += (objectTarget.hpNum * (objectTarget.cost1 / 2));
-		global.food += (objectTarget.hpNum * (objectTarget.cost2 / 2));
+		global.materials += ((objectTarget.hpNum/100) * (objectTarget.cost1 / 2));
+		global.food += ((objectTarget.hpNum/100) * (objectTarget.cost2 / 2));
 	}
 	instance_destroy(objectTarget);
 	state = states.preScrap;

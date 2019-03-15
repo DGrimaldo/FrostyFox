@@ -3,4 +3,4 @@
 dropMat = 0;
 dropFood = 0;
 
-alarm_set(0,60);
+alarm_set(0,30);
