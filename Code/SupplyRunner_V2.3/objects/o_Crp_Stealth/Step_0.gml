@@ -4,12 +4,18 @@
 hpNum = (hp/hpMax) * 100;
 
 if(hp <= 0 ){
-	global.food += 5;
-
-	dropRoll = irandom_range(1,10);
-	if dropRoll <= 6{
-		global.food += 2;
+	dropMat = 0;
+	dropRoll = irandom_range(1,20);
+	if dropRoll > 1{
+		dropFood = 5;
+	}else{
+		dropFood = 10;
 	}
+	num_inst = instance_create_depth(x,y,10,o_DropNum);
+	num_inst.dropMat=dropMat;
+	num_inst.dropFood=dropFood;
+	global.materials += dropMat;
+	global.food += dropFood;
 	instance_destroy();
 }
 

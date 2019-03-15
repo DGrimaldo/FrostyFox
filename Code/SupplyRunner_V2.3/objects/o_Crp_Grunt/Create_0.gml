@@ -20,5 +20,8 @@ lteDmgSpr = spr_MouseDMG_Lte;
 oSpr = spr_Mouse;
 isHit = false;
 
-dropMat = 5;
-dropFood = 0;
+
+
+//dropMat = 5;
+//dropFood = 0;
+

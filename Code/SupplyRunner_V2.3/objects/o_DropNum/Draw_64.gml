@@ -1,7 +1,48 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(dropMat=.5){
+	draw_sprite(spr_PP5,0,x-32,y-32);
+	draw_sprite(spr_SmallTools,0,x+21,y-16)
+}
+if(dropFood=.5){
+	draw_sprite(spr_PP5,0,x-32,y-62);
+	draw_sprite(spr_SmallRations,0,x+21,y-56)
+}
+//
 if(dropMat=5){
 	draw_sprite(spr_P5,0,x-32,y-32);
 	draw_sprite(spr_SmallTools,0,x+21,y-16)
 }
+if(dropFood=5){
+	draw_sprite(spr_P5,0,x-32,y-62);
+	draw_sprite(spr_SmallRations,0,x+21,y-56)
+}
+//
+if(dropMat=10){
+	draw_sprite(spr_P10,0,x-42,y-67);
+	draw_sprite(spr_SmallTools,0,x+21,y-56)
+}
+if(dropFood=10){
+	draw_sprite(spr_P10,0,x-42,y-32);
+	draw_sprite(spr_SmallRations,0,x+21,y-16)
+}
+//
+if(dropMat=15){
+	draw_sprite(spr_P15,0,x-42,y-67);
+	draw_sprite(spr_SmallTools,0,x+21,y-16)
+}
+if(dropFood=15){
+	draw_sprite(spr_P15,0,x-42,y-32);
+	draw_sprite(spr_SmallRations,0,x+21,y-16)
+}
+//
+if(dropMat=20){
+	draw_sprite(spr_P20,0,x-42,y-67);
+	draw_sprite(spr_SmallTools,0,x+21,y-16)
+}
+if(dropFood=20){
+	draw_sprite(spr_P20,0,x-42,y-32);
+	draw_sprite(spr_SmallRations,0,x+21,y-16)
+}
+//

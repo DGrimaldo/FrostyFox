@@ -4,8 +4,15 @@
 hpNum = (hp/hpMax) * 100;
 
 if(hp <= 0 ){
-	global.materials += 20;
-	global.food += 5;
+	//global.materials += 20;
+	//global.food += 5;
+	dropMat = 20;
+	dropFood = 5;
+	num_inst = instance_create_depth(x,y,10,o_DropNum);
+	num_inst.dropMat=dropMat;
+	num_inst.dropFood=dropFood;
+	global.materials += dropMat;
+	global.food += dropFood;
 	instance_destroy();
 }
 

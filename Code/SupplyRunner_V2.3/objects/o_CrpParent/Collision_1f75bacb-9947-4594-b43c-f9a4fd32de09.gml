@@ -5,13 +5,16 @@ other_inst = instance_place(x,y,o_CrpParent);
 
 if (state == states.traveling){
 	if (other_inst.state == states.attacking){
-		state = states.attacking;
 		beaver_inst = other_inst.beaver_inst;
+		state = states.attacking;
+		//path_speed = 0;
+	}else{
+		//path_speed = spd;
 	}
 }
 
-
 if(hp <= 0 ){
-	beaver_inst = noone;
 	other_inst.beaver_inst = noone;
+	beaver_inst = noone;
 }
+
