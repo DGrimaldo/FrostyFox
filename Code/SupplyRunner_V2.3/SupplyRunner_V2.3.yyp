@@ -103,19 +103,19 @@
             }
         },
         {
-            "Key": "09009c4e-df6b-410e-8f36-9443dca6b7c5",
-            "Value": {
-                "id": "5410429e-a8ba-4762-9d14-755dec2b98f3",
-                "resourcePath": "sprites\\spr_Building3\\spr_Building3.yy",
-                "resourceType": "GMSprite"
-		}
-        },
-        {
             "Key": "0895b8b8-cf6e-474a-95bc-e91f8d9041cf",
             "Value": {
                 "id": "f05beead-57c3-491f-955c-978bbf3b8b48",
                 "resourcePath": "objects\\o_waveBoxParent\\o_waveBoxParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "09009c4e-df6b-410e-8f36-9443dca6b7c5",
+            "Value": {
+                "id": "5410429e-a8ba-4762-9d14-755dec2b98f3",
+                "resourcePath": "sprites\\spr_Building3\\spr_Building3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1100,6 +1100,14 @@
                 "id": "a4344cd6-b9bc-4978-8674-a9b1639e65f2",
                 "resourcePath": "views\\70a195de-85a1-4ab1-8ffc-0beb290c9676.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "727bcf1a-482f-4291-b713-e31e1e626637",
+            "Value": {
+                "id": "c1dbf9ac-2957-4b70-a9cf-6b6cb7a04050",
+                "resourcePath": "objects\\TutCntrl\\TutCntrl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2092,6 +2100,14 @@
                 "id": "9ea22708-b6fa-4485-83df-ad608e4608e1",
                 "resourcePath": "sprites\\spr_Spwnr\\spr_Spwnr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e98cf949-2e96-493e-9155-33820ccc2cc9",
+            "Value": {
+                "id": "1eb10f43-9330-4597-8f97-09edf2d3216a",
+                "resourcePath": "rooms\\Tutorial\\Tutorial.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
