@@ -7,3 +7,10 @@ global.wave = 1;
 //global.food = 20;
 global.playerHp = 100;
 
+
+
+
+
+
+
+//audio_play_sound(sfx_laser2, 0, false)
