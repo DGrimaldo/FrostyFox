@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_color(c_white);
-draw_set_font(fontTest);
+draw_set_font(fontGUIR);
 draw_text(x-32, y-96, string(cost1));
 draw_text(x+32, y-96, string(cost2));
 draw_set_color(c_white);

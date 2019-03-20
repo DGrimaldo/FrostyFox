@@ -8,6 +8,8 @@ if (global.wave == 5){
 }
 
 if (o_Healthbar.hp <= 0){
+	global.materials=global.saveMat;
+	global.food=global.saveFood;
 	global.level1pass = false;
 	room_goto(Overworld);
 }

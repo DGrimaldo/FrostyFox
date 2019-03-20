@@ -2,7 +2,7 @@
     "id": "cf880da0-4225-4f73-aa61-2bd718a39ece",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOverworldControl",
+    "name": "OverworldControl",
     "eventList": [
         {
             "id": "98aa7bf4-ce0c-4b58-8b35-68f623fdd002",
@@ -52,6 +52,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 96,
             "eventtype": 9,
+            "m_owner": "cf880da0-4225-4f73-aa61-2bd718a39ece"
+        },
+        {
+            "id": "58baff37-f9ce-460f-95d2-26548f246c1f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
             "m_owner": "cf880da0-4225-4f73-aa61-2bd718a39ece"
         }
     ],
