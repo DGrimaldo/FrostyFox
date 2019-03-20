@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.playerHp = 100;
-global.materials = 150;
-global.food = 5;
+global.materials = 0;
+global.food = 0;
 global.level=0;
 global.levelTutpass=false;
 global.level1pass=false;

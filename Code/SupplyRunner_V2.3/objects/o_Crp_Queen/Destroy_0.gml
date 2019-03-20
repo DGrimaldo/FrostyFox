@@ -8,3 +8,8 @@ if (room == Level1){
 }else if (room == Level2){
 	Wave_Spawner_LvL2.dieCount += 1;
 }
+
+
+if(room == Tutorial){
+	o_TutBox.TutState+=1;
+}

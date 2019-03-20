@@ -4,6 +4,7 @@
 //Stats
 hp = 100;
 hpMax = hp;
+hpNum = (hp/hpMax) * 100;
 spd = 2;
 state = states.startup;
 

@@ -15,6 +15,7 @@ shooting = false;
 objectTarget = noone;
 
 alarm_set(1,firerate);
+pthPickr = noone;
 
 
 // Creep Movement

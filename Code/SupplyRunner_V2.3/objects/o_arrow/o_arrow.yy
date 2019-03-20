@@ -5,13 +5,23 @@
     "name": "o_arrow",
     "eventList": [
         {
-            "id": "a74e2f16-63b1-45b0-8690-55df1aa6bacb",
+            "id": "7f9fc5e0-5f9a-412a-826a-b5ef597f6ea8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "273dbe80-836f-4092-999d-77dc7039617b"
+        },
+        {
+            "id": "352d403f-f6b9-4f2e-9bb5-af2157cc72b9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 5,
             "m_owner": "273dbe80-836f-4092-999d-77dc7039617b"
         }
     ],

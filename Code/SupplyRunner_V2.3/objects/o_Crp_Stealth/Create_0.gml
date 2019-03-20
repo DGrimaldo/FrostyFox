@@ -7,6 +7,7 @@ hpMax = hp;
 spd = 4;
 state = states.startup;
 
+pthPickr = noone;
 
 beaver_inst = noone;
 

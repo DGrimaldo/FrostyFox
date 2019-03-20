@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "186af373-277c-47fa-8855-a24f4175830a",
-            "Value": {
-                "id": "ceb4c4df-167b-4fbe-b26b-1fab004761aa",
-                "resourcePath": "objects\\Tutorial_Cntrl\\Tutorial_Cntrl.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "19ae4c43-e8bf-436e-bfc2-cbe4fe5ee86d",
             "Value": {
                 "id": "50ba42c2-0410-454d-90f6-69f454e18c4c",
@@ -647,14 +639,6 @@
             }
         },
         {
-            "Key": "3af20344-37a7-404e-94fa-b84f3ab4b9b7",
-            "Value": {
-                "id": "a7eb0b34-0831-403f-8255-698e45db9a1b",
-                "resourcePath": "objects\\o_tutButton\\o_tutButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3b141ecb-3627-47bd-a44c-484da523db21",
             "Value": {
                 "id": "fc3694a4-68e7-4122-8655-23b34ecbad1b",
@@ -924,14 +908,6 @@
                 "id": "fb8bf64e-bd6e-43bf-b220-c898ab0126d3",
                 "resourcePath": "rooms\\Level2\\Level2.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "57b7a590-a889-40a6-a34e-3bb260ee46a8",
-            "Value": {
-                "id": "ccf8fc7b-4ea8-455a-89ed-35328a172cb3",
-                "resourcePath": "objects\\Tut_Cntrl\\Tut_Cntrl.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1316,6 +1292,14 @@
                 "id": "add61276-8285-4a23-a5b7-03e4a94f4a45",
                 "resourcePath": "paths\\pth_T2\\pth_T2.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "7ff9ff2b-a14b-4ad5-ad8b-34adc7f8d5df",
+            "Value": {
+                "id": "f09a5494-c9e8-4ca8-ac2e-9f0ddf901041",
+                "resourcePath": "objects\\Tut_Cntrl\\Tut_Cntrl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1844,14 +1828,6 @@
                 "id": "5ade8192-2b07-401c-8248-40f243503f70",
                 "resourcePath": "sprites\\spr_BigTools\\spr_BigTools.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "beed54df-e2d8-4fb1-a153-a07f2e5363e9",
-            "Value": {
-                "id": "7b22ac34-d3a3-4fec-8914-6fe554c06723",
-                "resourcePath": "objects\\LvLCntrl_Tut\\LvLCntrl_Tut.yy",
-                "resourceType": "GMObject"
             }
         },
         {
