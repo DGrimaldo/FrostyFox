@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+audio_play_sound(snd_Pellet, 10, false);
 startX = x;
 startY = y;
 
