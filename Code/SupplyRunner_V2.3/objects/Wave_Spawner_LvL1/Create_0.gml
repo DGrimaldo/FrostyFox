@@ -86,10 +86,10 @@ spawnSet3_pth[8] = pth_A;
 // Enemy Composition
 spawnSet4[3] = noone;
 
-spawnSet4[0] = o_Crp_Queen;
-spawnSet4[1] = o_Crp_Stealth;
-spawnSet4[2] = o_Crp_Queen;
-spawnSet4[3] = o_Crp_Stealth;
+spawnSet4[0] = o_Crp_Grunt;
+spawnSet4[1] = o_Crp_Grunt;
+spawnSet4[2] = o_Crp_Heavy;
+spawnSet4[3] = o_Crp_Queen;
 // Path Designation
 spawnSet4_pth[0] = pth_A;
 spawnSet4_pth[1] = pth_A;

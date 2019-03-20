@@ -7,3 +7,5 @@ global.wave = 1;
 //global.food = 20;
 global.playerHp = 100;
 
+paused = false;
+twrScrap = false;

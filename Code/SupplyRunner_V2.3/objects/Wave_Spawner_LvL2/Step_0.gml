@@ -46,3 +46,8 @@ if (global.wave == 5){
 		pthPickr3 = spawnSet5_3_pth[sCnt];
 	}
 }
+
+if boxSwitch == true{
+	alarm_set(0,240);
+	boxSwitch = false;
+}
