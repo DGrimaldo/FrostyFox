@@ -9,3 +9,7 @@ if (global.materials < cost1) or (global.food < cost2) {
 if (instance_exists(o_waveBoxParent)) {
 	image_blend = c_gray;
 }
+
+if instance_exists(o_Falconer){
+	o_Falconer_C.image_blend = c_gray;
+}

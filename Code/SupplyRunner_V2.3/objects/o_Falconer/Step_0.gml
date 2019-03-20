@@ -82,3 +82,29 @@ if(state == states.attacking){
 		state = states.idle;
 	}
 }
+
+if room == Level1 {
+	if global.wave == 5{
+		if hp == hpMax {
+			global.materials += (cost1 / 2);
+			global.food += (cost2 / 2);
+		}else{
+			global.materials += ((hpNum/100) * (cost1 / 2));
+			global.food += ((hpNum/100) * (cost2 / 2));
+		}
+		LvLCntrl.twrScrap = true;
+		instance_destroy()
+	}
+}
+if room == Level2 {
+	if global.wave == 6{
+		if hp == hpMax {
+			global.materials += (cost1 / 2);
+			global.food += (cost2 / 2);
+		}else{
+			global.materials += ((hpNum/100) * (cost1 / 2));
+			global.food += ((hpNum/100) * (cost2 / 2));
+		}
+		instance_destroy()
+	}	
+}

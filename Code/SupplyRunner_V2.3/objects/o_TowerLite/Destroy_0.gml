@@ -9,3 +9,4 @@ if (bullet_inst != noone){
 if (instance_exists(barrel_inst)){
 	instance_destroy(barrel_inst);
 }
+

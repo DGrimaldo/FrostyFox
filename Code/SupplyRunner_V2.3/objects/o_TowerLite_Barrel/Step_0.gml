@@ -6,6 +6,9 @@ if (localTarget != noone){
 	if (instance_exists(localTarget)){
 		direction = point_direction(x,y,localTarget.x,localTarget.y);
 		image_angle = 180 + point_direction(x,y,localTarget.x,localTarget.y);
+	}else{
+		direction = 180;
+		image_angle = 0;
 	}
 }else{
 	//localTarget = o_HoleLrg;

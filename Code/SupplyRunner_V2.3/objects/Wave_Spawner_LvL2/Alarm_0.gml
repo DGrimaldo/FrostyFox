@@ -30,7 +30,7 @@ if (sCnt < (setSize)){
 			sCnt = 0;
 			dieCount = 0;
 			global.wave += 1;
-			alarm_set(0,240);
+			alarm_set(1,120);
 		}else{
 			alarm_set(0,240);
 		}
@@ -39,7 +39,7 @@ if (sCnt < (setSize)){
 			sCnt = 0;
 			dieCount = 0;
 			global.wave += 1;
-			alarm_set(0,240);
+			alarm_set(1,120);
 		}else{
 			alarm_set(0,240);
 		}
@@ -48,7 +48,7 @@ if (sCnt < (setSize)){
 			sCnt = 0;
 			dieCount = 0;
 			global.wave += 1;
-			alarm_set(0,240);
+			alarm_set(1,120);
 		}else{
 			alarm_set(0,240);
 		}

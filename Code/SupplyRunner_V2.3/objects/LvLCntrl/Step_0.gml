@@ -3,8 +3,15 @@
 
 
 if (global.wave == 5){
-	global.level1pass = true;
-	room_goto(Overworld);
+	if instance_exists(o_TowerParent){
+		if twrScrap == true{
+			global.level1pass = true;
+			room_goto(Overworld);
+		}
+	}else{
+		global.level1pass = true;
+		room_goto(Overworld);
+	}
 }
 
 if (o_Healthbar.hp <= 0){

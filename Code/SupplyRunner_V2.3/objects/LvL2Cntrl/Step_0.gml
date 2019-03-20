@@ -6,7 +6,7 @@ if (global.wave > 5){
 	global.materials = 150;
 	global.food = 20;
 	global.level2pass=true;
-	room_goto(Overworld);
+	room_goto(SplashScreen);
 }
 
 if (o_Healthbar.hp <= 0){

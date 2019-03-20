@@ -6,6 +6,8 @@ dieCount = 0;
 sCnt = 0;
 s = 0;
 
+boxSwitch = false;
+
 // Wave 1
 // Enemey Composition
 spawnSet1[7] = noone;
@@ -33,15 +35,15 @@ spawnSet1_pth[7] = pth_2B;
 // Wave 2
 spawnSet2[8] = noone;
 //
-spawnSet2[0] = o_Crp_Queen;
-spawnSet2[1] = o_Crp_Grunt;
+spawnSet2[0] = o_Crp_Heavy;
+spawnSet2[1] = o_Crp_Heavy;
 spawnSet2[2] = o_Crp_Grunt;
 spawnSet2[3] = o_Crp_Grunt;
 spawnSet2[4] = o_Crp_Grunt;
 spawnSet2[5] = o_Crp_Grunt;
 spawnSet2[6] = o_Crp_Grunt;
 spawnSet2[7] = o_Crp_Grunt;
-spawnSet2[8] = o_Crp_Stealth;
+spawnSet2[8] = o_Crp_Grunt;
 // Path Designation
 spawnSet2_pth[8] = noone; 
 //
@@ -88,7 +90,7 @@ spawnSet4[3] = noone;
 spawnSet4[0] = o_Crp_Heavy;
 spawnSet4[1] = o_Crp_Heavy;
 spawnSet4[2] = o_Crp_Stealth;
-spawnSet4[3] = o_Crp_Grunt;
+spawnSet4[3] = o_Crp_Queen;
 // Path Designation
 spawnSet4_pth[3] = noone;
 //
@@ -102,7 +104,7 @@ spawnSet4_2[3] = noone;
 //
 spawnSet4_2[0] = o_Crp_Heavy;
 spawnSet4_2[1] = o_Crp_Heavy;
-spawnSet4_2[2] = o_Crp_Grunt;
+spawnSet4_2[2] = o_Crp_Heavy;
 spawnSet4_2[3] = o_Crp_Stealth;
 // Path Designation
 spawnSet4_2_pth[3] = noone;
@@ -133,8 +135,8 @@ spawnSet5_pth[3] = pth_2A;
 spawnSet5_2[3] = noone;
 
 spawnSet5_2[0] = o_Crp_Queen;
-spawnSet5_2[1] = o_Crp_Heavy;
-spawnSet5_2[2] = o_Crp_Heavy;
+spawnSet5_2[1] = o_Crp_Grunt;
+spawnSet5_2[2] = o_Crp_Grunt;
 spawnSet5_2[3] = o_Crp_Grunt;
 // Path Designation
 spawnSet5_2_pth[3] = noone; 
