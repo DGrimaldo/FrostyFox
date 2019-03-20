@@ -8,6 +8,4 @@ if (global.materials < cost1) or (global.food < cost2) {
 
 if (instance_exists(o_waveBoxParent)) {
 	image_blend = c_gray;
-}else{
-	image_blend = c_white;
 }
