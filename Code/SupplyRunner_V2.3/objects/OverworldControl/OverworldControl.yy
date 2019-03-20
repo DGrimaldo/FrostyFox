@@ -2,7 +2,7 @@
     "id": "cf880da0-4225-4f73-aa61-2bd718a39ece",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOverworldControl",
+    "name": "OverworldControl",
     "eventList": [
         {
             "id": "98aa7bf4-ce0c-4b58-8b35-68f623fdd002",

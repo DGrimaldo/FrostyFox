@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "5a2aee30-f9b8-4a64-bdc1-69509f6bd463",
+            "Value": {
+                "id": "a1cfeab6-af31-4a8a-8d93-71a29552e4d0",
+                "resourcePath": "sounds\\snd_Hit\\snd_Hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5a7d3b5b-685d-465a-811c-afee243216ae",
             "Value": {
                 "id": "57aa692c-2472-4dac-a9d6-28a41ab30a84",
@@ -1610,7 +1618,7 @@
             "Key": "a3ee5cee-ace0-44f9-bdb0-4c66813e93cb",
             "Value": {
                 "id": "90a43b60-102e-47e3-9ba6-b4ab40ee7824",
-                "resourcePath": "fonts\\fontTest\\fontTest.yy",
+                "resourcePath": "fonts\\fontGUIL\\fontGUIL.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -2042,7 +2050,7 @@
             "Key": "cf880da0-4225-4f73-aa61-2bd718a39ece",
             "Value": {
                 "id": "f813c66e-0570-4777-9bbb-de115dc16bad",
-                "resourcePath": "objects\\oOverworldControl\\oOverworldControl.yy",
+                "resourcePath": "objects\\OverworldControl\\OverworldControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2100,6 +2108,14 @@
                 "id": "d055353d-5c17-4f87-9b87-2e98f4c2fffc",
                 "resourcePath": "objects\\o_Road3\\o_Road3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8886788-aca7-4956-aef2-0a5b73f799e3",
+            "Value": {
+                "id": "ec8a03f2-ef82-4a81-885a-b531a2d45d49",
+                "resourcePath": "fonts\\fontGUIR\\fontGUIR.yy",
+                "resourceType": "GMFont"
             }
         },
         {
