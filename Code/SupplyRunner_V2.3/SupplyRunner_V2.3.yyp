@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "273dbe80-836f-4092-999d-77dc7039617b",
+            "Value": {
+                "id": "3720b449-9236-47e8-a72d-3818508b3f89",
+                "resourcePath": "objects\\o_arrow\\o_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "284c76cc-0b27-4b00-bc9e-be9808cab356",
             "Value": {
                 "id": "e6933655-795c-4244-a747-bc6c65a1bc1e",
@@ -1386,7 +1394,7 @@
             "Key": "88440156-e22d-40b2-b58c-481fb59c5fa7",
             "Value": {
                 "id": "fa0ee647-1211-4bab-b9a8-6754d491c27c",
-                "resourcePath": "sprites\\tutBoxButton\\tutBoxButton.yy",
+                "resourcePath": "sprites\\spr_tutBoxButton\\spr_tutBoxButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1620,6 +1628,14 @@
                 "id": "ef1a635c-5a9c-4619-bae3-45fe5d5ef2ed",
                 "resourcePath": "sprites\\spr_SmallRations\\spr_SmallRations.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7b2ace8-7930-4a26-820c-54e1731999de",
+            "Value": {
+                "id": "70d054c4-1634-4d5b-bbe7-9ee2134b68ef",
+                "resourcePath": "fonts\\fonttxtBox\\fonttxtBox.yy",
+                "resourceType": "GMFont"
             }
         },
         {

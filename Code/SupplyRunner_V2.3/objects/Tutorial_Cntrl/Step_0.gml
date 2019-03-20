@@ -2,17 +2,28 @@
 // You can write your code in this editor
 
 if (state == statesT.TutorialIntro){
-	
-	if (!instance_exists(o_TutBox)){
-		alarm_set(1, 120);
+	if (instance_exists(o_TutBox)){
+		if (o_TutBox.boxDeath == true){
+			state = statesT.HuDIntro;
+		}
+	}else{
+		instance_create_depth(380,25,-9,o_TutBox);
 	}
 }
+
 if (state == statesT.HuDIntro){
-	alarm_set(1, 120);
+	if (!instance_exists(o_TutBox)){
+		//instance_create_depth(380,25,-9,o_TutBox);
+	}
+	var arrow1 = instance_create_layer(x,y,"GUI",o_arrow)
+	arrow1.direction = 330;
+	var arrow2 = instance_create_layer(x,y,"GUI",o_arrow)
+	arrow2.direction = 330;
+	if o_TutBox.boxDeath == true{
+		state = statesT.LightTower;
+	}
 }
-if (state == statesT.LightTower){
-	alarm_set(1, 120);
-}
+
 if (state == statesT.GruntIntro){
 	alarm_set(1, 120);
 }
