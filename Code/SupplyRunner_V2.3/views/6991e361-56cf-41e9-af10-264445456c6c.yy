@@ -6,6 +6,7 @@
     "children": [
         "a3ee5cee-ace0-44f9-bdb0-4c66813e93cb",
         "3dde0b6c-a73f-4f59-a1df-099626d35dde",
+        "a7b2ace8-7930-4a26-820c-54e1731999de",
         "a01f3437-e227-45d4-bc3b-25e61cd36f85"
     ],
     "filterType": "GMFont",

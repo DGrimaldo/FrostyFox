@@ -2,7 +2,7 @@
     "id": "88440156-e22d-40b2-b58c-481fb59c5fa7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "tutBoxButton",
+    "name": "spr_tutBoxButton",
     "For3D": false,
     "HTile": false,
     "VTile": false,
