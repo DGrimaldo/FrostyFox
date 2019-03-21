@@ -108,6 +108,9 @@ if(TutState=8){
 	draw_text(200,25,"Now prepare for the Queen!");
 	draw_text(200,75,"She will attack your towers."); 
 	draw_text(200,125,"Stop her before she reaches the base.");
+	draw_set_color(c_black);//
+	draw_set_font(fonttxtBox);//
+	draw_text(650,225,"SPACE: CONTINUE");//
 }
 
 if(TutState=9){
